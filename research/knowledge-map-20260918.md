@@ -7,6 +7,11 @@ This file is a desk index, not a result. It records what this cloud agent can
 see, what the Stage-1/Stage-2 lock already says, and what is still only in
 local Cursor chats.
 
+A later same-question Luna probe (Frame Lab `equalRes` ON vs OFF) is filed at
+[`luna-equalres-on-off-20260918.md`](luna-equalres-on-off-20260918.md). That
+is a chat-filter contrast, **not** an RD battery and **not** a public
+EqualResolution result. HOLD stays.
+
 ## 1. Access limit (this cloud run)
 
 This run is cloud agent `bc-0cb25124` on
@@ -45,6 +50,7 @@ Secrets stay out (no `.env.local`). EqualResolution HOLD. No deploy.
 | [`stage2-educated-summary-notes-20260918.md`](stage2-educated-summary-notes-20260918.md) | Stage-2 design notes (desk draft + micro-protocol pointer) |
 | [`stage2-micro-protocol-draft.md`](stage2-micro-protocol-draft.md) | Optional tiny Stage-2 micro; **do not run live** |
 | [`citation-ledger-20260918.md`](citation-ledger-20260918.md) | Cited vs uncited evidence map (points at PR #2 `sources.jsonl`) |
+| [`luna-equalres-on-off-20260918.md`](luna-equalres-on-off-20260918.md) | Same-question Luna chat: filter ON vs OFF (synthetic; not RD) |
 
 After merging `origin/main`, this clone also has the residual-lab Python
 package, RD batteries, and verified lit files. The phone app is still on
@@ -82,7 +88,8 @@ exists because fair slots ≠ fair substance summary.
 - Public EqualResolution: HOLD.
 - No prestige×info live.
 - No deploy.
-- No live model API battery from these notes.
+- No live model API **battery** from these notes. The Luna ON/OFF chat
+  probe is n=1 per cell and stays synthetic / HOLD.
 - CL4R1T4S patterns are audit/background only, not causal proof.
 
 ## 4. Referenced local artifacts (not in this clone)

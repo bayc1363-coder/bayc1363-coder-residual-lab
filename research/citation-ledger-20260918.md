@@ -62,6 +62,7 @@ Sample ERT rubric numbers in `ert_rubric.jsonl` / `ert.md` are marked
 | CL4R1T4S prompt-leak archive | Mentioned as **audit background**, not as causal proof. If used, cite the live repo after opening it; do not invent a paper. |
 | Phone app self-audit scores | Explicitly **not** an independent scorer. Do not quote 0.8x as evidence. |
 | Live model cells (Luna, MiniMax, DeepSeek) | Protocol/HOLDs in app notes; **not** a published battery in this GitHub tree. |
+| Luna Frame Lab ON vs OFF (2026-09-18) | Filed as [`luna-equalres-on-off-20260918.md`](luna-equalres-on-off-20260918.md). Lab probe, **not** a citation. n=1. Self-audit ≠ scorer. |
 
 ## 3. How to add a citation later
 
