@@ -24,6 +24,9 @@ Read the design notes first:
 - [`research/knowledge-map-20260918.md`](research/knowledge-map-20260918.md)
   — what this cloud run can see vs what still lives in local Cursor chats
   (including the earlier phone app, which is **not** in this clone)
+- [`research/local-chat-handoff-prompt.md`](research/local-chat-handoff-prompt.md)
+  — paste-into-local-chat prompt so each desktop chat can PR its own
+  export folder into this repo
 
 The micro is optional and must not be run without explicit review. Current
 status is **claim_level: synthetic**, **Public EqualResolution: HOLD**, no
