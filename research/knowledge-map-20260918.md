@@ -44,7 +44,7 @@ Secrets stay out (no `.env.local`). EqualResolution HOLD. No deploy.
 | [`SEE_METHODOLOGY.md`](../SEE_METHODOLOGY.md) | Stage 1 vs planned Stage 2 pointer |
 | [`stage2-educated-summary-notes-20260918.md`](stage2-educated-summary-notes-20260918.md) | Stage-2 design notes (from the 2026-09-18 research-desk draft) |
 | [`stage2-micro-protocol-draft.md`](stage2-micro-protocol-draft.md) | Optional tiny Stage-2 micro; **do not run live** |
-| this file | Cross-chat recovery index |
+| [`citation-ledger-20260918.md`](citation-ledger-20260918.md) | Cited vs uncited evidence map (points at PR #2 `sources.jsonl`) |
 
 `main` is still almost empty. **This Stage-2 branch** is notes only. The
 phone app is on **another branch / PR #3**: `apps/frame-lab-phone/`

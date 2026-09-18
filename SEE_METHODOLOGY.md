@@ -24,6 +24,9 @@ Read the design notes first:
 - [`research/knowledge-map-20260918.md`](research/knowledge-map-20260918.md)
   — what this cloud run can see vs other chats; phone app is on
   [PR #3](https://github.com/bayc1363-coder/bayc1363-coder-residual-lab/pull/3)
+- [`research/citation-ledger-20260918.md`](research/citation-ledger-20260918.md)
+  — what is actually cited (PR #2 must-cite shelf) vs battery/HF/chat
+  material that still has no identifier
 - [`research/local-chat-handoff-prompt.md`](research/local-chat-handoff-prompt.md)
   — local chats write to `$HOME/Desktop/residual-lab-drop/<slug>/`.
   This agent cannot take a zip or >20 files; large packs need a new
