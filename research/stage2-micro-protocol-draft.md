@@ -1,7 +1,7 @@
 # Stage 2 educated-summary micro — protocol draft
 
 **Status:** optional design draft; **do not run live** without Boris’s explicit
-greenlight.  
+greenlight.
 **claim_level:** synthetic · **Public EqualResolution: HOLD** · no deploy · no
 live model API battery runs.
 

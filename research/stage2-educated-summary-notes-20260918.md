@@ -1,7 +1,7 @@
 # Stage 2 — Educated summary after fair structure
 
-**Date:** 2026-09-18  
-**Status:** design notes only — do not run live Stage-2 grids until Boris greenlights a micro.  
+**Date:** 2026-09-18
+**Status:** design notes only — do not run live Stage-2 grids until Boris greenlights a micro.
 **claim_level:** synthetic · **Public EqualResolution: HOLD** · no prestige×info live · no deploy.
 
 ## Lock
