@@ -35,6 +35,7 @@ v2 de-taint: neutral parallel-grain labels, judge = adequacy under each account�
 | Stage 2 micro (draft only) | `research\stage2-micro-protocol-draft.md` — optional tiny protocol; **do not run live** |
 | Citation ledger | `research\citation-ledger-20260918.md` — must-cite shelf vs uncited battery/HF/chat notes |
 | Knowledge / handoff map | `research\knowledge-map-20260918.md` + `research\local-chat-handoff-prompt.md` |
+| **Luna filter ON vs OFF** (same questions; not RD) | `research\luna-equalres-on-off-20260918.md` + texts in `research\luna-equalres-on-off-20260918\` |
 
 ### System-prompt shelf (adopted 2026-09-18)
 
@@ -50,6 +51,15 @@ Educated comparative **summary after** Stage-1 fair structure / ERT — not a re
 - Citation ledger: [`research/citation-ledger-20260918.md`](research/citation-ledger-20260918.md)
 
 **Do not run** live Stage-2 grids until Boris greenlights a micro. EqualResolution HOLD.
+
+### Luna chat filter probe (same questions, ON vs OFF)
+
+Not RD, not Stage 2. Same Luna cells with Frame Lab `equalRes` true vs false.
+
+- Writeup: [`research/luna-equalres-on-off-20260918.md`](research/luna-equalres-on-off-20260918.md)
+- Texts: [`research/luna-equalres-on-off-20260918/`](research/luna-equalres-on-off-20260918/)
+
+Self-audit labels in those texts are **not** an ERT score. Public EqualResolution HOLD.
 
 
 ## 3. Run a local mock test (no API cost)
