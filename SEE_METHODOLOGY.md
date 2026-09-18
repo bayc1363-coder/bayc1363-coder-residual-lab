@@ -49,6 +49,7 @@ Educated comparative **summary after** Stage-1 fair structure / ERT — not a re
 - Design notes: [`research/stage2-educated-summary-notes-20260918.md`](research/stage2-educated-summary-notes-20260918.md)
 - Decision layer after Frame Lab A/B: [`research/stage2-decision-layer-20260918.md`](research/stage2-decision-layer-20260918.md)
 - Stage 2 micro (2026-09-18, synthetic): [`research/stage2-micro-20260918.md`](research/stage2-micro-20260918.md)
+- Stage 2 vs first ON/OFF: [`research/stage2-vs-stage1-on-off-20260918.md`](research/stage2-vs-stage1-on-off-20260918.md)
 - WP v5 (uploaded draft, no public id): [`research/residualisation-wp-v5.md`](research/residualisation-wp-v5.md) + Stage 2 excerpt [`research/stage2-education-wp-v5-excerpt.md`](research/stage2-education-wp-v5-excerpt.md)
 - Optional micro (do not run): [`research/stage2-micro-protocol-draft.md`](research/stage2-micro-protocol-draft.md)
 - Citation ledger: [`research/citation-ledger-20260918.md`](research/citation-ledger-20260918.md)

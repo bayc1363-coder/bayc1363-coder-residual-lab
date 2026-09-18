@@ -82,3 +82,5 @@ Desk delete-B note still stands: the Stage-1 working line’s first clause is ac
 ## Verdict
 
 The decision layer **works as a second pass**: it reads A/B instead of re-answering, keeps both avenues, and will lean only where an account’s own test in the packet supports it. The WP excerpt did not force fake-equal. Paste-order swap did not flip Earth. HOLD stays.
+
+Versus the first ON/OFF test: [`stage2-vs-stage1-on-off-20260918.md`](stage2-vs-stage1-on-off-20260918.md).
