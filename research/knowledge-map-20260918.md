@@ -41,15 +41,15 @@ Secrets stay out (no `.env.local`). EqualResolution HOLD. No deploy.
 
 | Path | Role |
 | --- | --- |
-| [`SEE_METHODOLOGY.md`](../SEE_METHODOLOGY.md) | Stage 1 vs planned Stage 2 pointer |
-| [`stage2-educated-summary-notes-20260918.md`](stage2-educated-summary-notes-20260918.md) | Stage-2 design notes (from the 2026-09-18 research-desk draft) |
+| [`SEE_METHODOLOGY.md`](../SEE_METHODOLOGY.md) | Desk index: RD v2.2 + planned Stage 2 pointers |
+| [`stage2-educated-summary-notes-20260918.md`](stage2-educated-summary-notes-20260918.md) | Stage-2 design notes (desk draft + micro-protocol pointer) |
 | [`stage2-micro-protocol-draft.md`](stage2-micro-protocol-draft.md) | Optional tiny Stage-2 micro; **do not run live** |
 | [`citation-ledger-20260918.md`](citation-ledger-20260918.md) | Cited vs uncited evidence map (points at PR #2 `sources.jsonl`) |
 
-`main` is still almost empty. **This Stage-2 branch** is notes only. The
-phone app is on **another branch / PR #3**: `apps/frame-lab-phone/`
-(Next.js mobile Frame Lab / equal-res chat). No `out/p0-runs/` dump in
-this clone.
+After merging `origin/main`, this clone also has the residual-lab Python
+package, RD batteries, and verified lit files. The phone app is still on
+**PR #3**: `apps/frame-lab-phone/`. `out/p0-runs/` reports are still
+desk-path pointers, not necessarily in this clone.
 
 ## 3. Locked research knowledge (from the Stage-2 desk notes)
 

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "residual-lab"
+version = "0.1.0"
+description = "Residualisation Research Lab — local tool for soft ranking, residualisation, and Equal-Resolution Testing (research-only)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Residualisation Research Lab" }]
+keywords = ["epistemic-diversity", "residualisation", "soft-ranking", "ERT"]
+dependencies = [
+    "gradio>=4.44,<6",
+    "pyyaml>=6.0",
+    "pytest>=8.0",
+]
+
+[project.scripts]
+residual-lab = "residual_lab.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["residual_lab*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

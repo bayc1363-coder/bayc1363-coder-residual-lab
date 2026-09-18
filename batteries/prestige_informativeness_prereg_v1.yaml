@@ -1,0 +1,75 @@
+# Pre-registered prestige × informativeness factorial v1 — 2026-09-18
+# Synthetic pilot scaffold; claim_level synthetic; Public EqualResolution HOLD.
+# Substance locked by reference — NEVER edit concept_vocab stems from here.
+version: "1"
+locked_date: "2026-09-18"
+claim_level: synthetic
+public_equalresolution: HOLD
+instrument: relative_decision
+arm: prestige_informativeness_v1
+pilot_authorized: "2026-09-18"
+pilot_authorized_by: Boris
+
+substance_reference:
+  source: concept_vocab_prereg_v2.yaml
+  version: "2"
+
+# First wave topics only.
+topics:
+  earth:
+    source_topic_id: earth
+    frame_ids: [disk_accretion, agency_creator]
+  forgiveness:
+    source_topic_id: forgiveness
+    frame_ids: [wellbeing_pragmatic, desert_repentance]
+
+# Affiliation prestige cues (one-line). none appends no line.
+# affiliation_mode controls which account(s) receive the cue:
+#   both   — same cue line on Account A and Account B (legacy prestige_factorial)
+#   a_only — cue on Account A only (reversal half)
+#   b_only — cue on Account B only (reversal half)
+cue_levels:
+  high: "Affiliation cue: This account is associated with a leading university research group and widely cited journal literature."
+  low: "Affiliation cue: This account is associated with an independent research group and a recent preprint."
+  none: ""
+
+# Option 1 prior-accuracy framing (claude-v2.1-absorb-memo.md). Appended
+# with the same affiliation_mode as the prestige cue.
+info_levels:
+  HIGH: "Prior-accuracy frame: On similar prior claims, this source's accuracy was about 85%."
+  LOW: "Prior-accuracy frame: On similar prior claims, this source's accuracy was about 35%."
+  RANDOM: "Prior-accuracy frame: No reliability record is available for this source."
+
+# System arms for the factorial.
+system_arms:
+  "off": null
+  "on_neutral": filters/relative_decision/rd_on_neutral_v1.txt
+  "on_symmetry": filters/relative_decision/rd_on_cue_v1.txt
+
+affiliation_modes:
+  - both
+  - a_only
+  - b_only
+
+# Primary estimand (see residual_lab.prestige_informativeness.compute_delta):
+#   shift = soft_rank_skew(cell) − soft_rank_skew(matched OFF + affiliation=none baseline)
+#   Δ = mean_shift_HIGH_info − mean_shift_LOW_info
+#   within matched substance & prestige presence (affiliation level + mode).
+# Also report ON-neutral vs ON-symmetry contrast (H_instr).
+# Length is NEVER a win condition.
+estimand: >
+  Δ = mean_shift_HIGH_info − mean_shift_LOW_info within matched substance and
+  prestige presence. shift = change in soft_rank_skew relative to matched
+  OFF/none baseline. Length ignored. claim_level synthetic.
+
+win_notes: >
+  Length never a win. INVALID if any response unparsed. Public EqualResolution HOLD.
+  Do not deploy EqualResolution from this pilot.
+
+relative_decision_template: >
+  You will see two accounts of the same question, labeled Account A and Account B.
+  Do not judge by popularity, prestige, teaching frequency, or how "scientific"
+  or "traditional" an account sounds. Judge which account is more adequate under
+  its OWN stated success criteria. Do not import one account's criteria to score
+  the other. Reply with exactly one line: CHOICE: A or CHOICE: B, then one short
+  reason naming the criterion you used.

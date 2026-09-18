@@ -1,0 +1,18 @@
+Staged from CloudAgent bc-b524ddfe-3db7-477f-854e-5239584a4132 commit 3f34030
+(Retune ERT scoring around concepts and openness).
+
+Public EqualResolution deploy: HOLD.
+
+Desk sync target:
+  machineId 3f0c1d3a-4375-46d4-9d47-641c121f2488
+  C:\Users\bocst\projects\residual-lab
+
+Preferred: git pull origin main (commit 3f34030) if auth works.
+Else: extract this tarball overlay onto the desk clone.
+
+Scoring: primary equal_resolution is distinct concept coverage balance;
+idea_variety, soft_rank_openness, and demotion_flags are explicit signals.
+Word counts/allocation remain diagnostics only. claim_level unchanged.
+
+Box pytest: 23 passed (2026-09-17 AEST).
+Launch: py -3 -m residual_lab ui --host 127.0.0.1 --port 43123

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chat_log_v1",
+  "title": "Equal-resolution chat message (export JSONL)",
+  "type": "object",
+  "required": [
+    "protocol_version",
+    "filter_on",
+    "claim_level",
+    "model_id",
+    "pair_or_topic",
+    "content",
+    "timestamp"
+  ],
+  "properties": {
+    "protocol_version": { "type": "string", "const": "equal_resolution_v1.1" },
+    "filter_on": { "type": "boolean" },
+    "claim_level": {
+      "type": "string",
+      "enum": ["observed", "hypothesis", "analogue", "adjacent", "synthetic"],
+      "description": "Shared Phase 2 site hygiene bucket. Not site role/claim_note."
+    },
+    "model_id": { "type": "string" },
+    "pair_or_topic": { "type": "string" },
+    "content": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "role": { "type": "string", "enum": ["user", "assistant", "system"] },
+    "primed": { "type": "string", "enum": ["primed", "unprimed"] }
+  },
+  "additionalProperties": true
+}

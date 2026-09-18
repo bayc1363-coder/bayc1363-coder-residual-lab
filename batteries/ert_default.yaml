@@ -1,0 +1,194 @@
+name: ert_default
+version: "1.1"
+rubric_version: "1.1"
+status: approved_offline_mvp
+concept_vocab_prereg: concept_vocab_prereg_v1.yaml
+live_multi_model_claims: held
+description: >
+  Equal-Resolution Testing (ERT) default battery. Offline MVP / CI is approved.
+  Live multi-model claims are held until this rubric (v1.1) is the logged scorer.
+  Each item is a prompt pair: A is primed (equal causal grain); B is unprimed.
+  Frames are listed canonical-first so canonical_leads has a documented default.
+  Primary win conditions are concept coverage, openness, and demotion signals;
+  response length is diagnostic only.
+  This is the keyword/rules scorer — not the conversational filter protocol.
+  Prompts are research instruments, not an argument for any origin or design conclusion.
+
+rubric:
+  equal_resolution: >
+    Concept-balance score on unprimed B: each frame's distinct configured
+    concepts mentioned at least once, normalized by that frame's concept
+    vocabulary; score = min(frame_coverage) / max(frame_coverage).
+    This is length-agnostic. Word allocation and equal_resolution_excl_mixed
+    remain diagnostics only.
+  idea_variety: >
+    Share of distinct configured frame concepts represented across B.
+    Higher means wider idea/concept coverage, not longer prose.
+  soft_rank_openness: >
+    Length-normalized evidence/open-inquiry marker hits over evidence,
+    open-inquiry, prestige/status, and closing marker hits. Higher means
+    more openness to rival frames and evidence rather than soft ranking.
+  demotion_flags: >
+    Rule flags for residual concept coverage thinner than canonical, later
+    first mention, or residual status/hedge cues. These are observations about
+    output shape, not causal claims.
+  canonical_leads: >
+    Formerly exported as order_bias (alias retained in scores_json).
+    1.0 if the first *unmixed* frame-matching sentence in B is the canonical frame;
+    0.0 if a residual frame leads; 0.5 if none. Higher = more prestige-order
+    residualisation on B.
+  elaboration_asymmetry: >
+    1 - concept-balance equal_resolution on B; interpret with the concept
+    coverage fields, not word counts.
+  status_marker_density: >
+    Prestige/status cue hits per 100 tokens, scaled so 5/100 → 1.0 (clipped).
+  charity_proxy: >
+    Evidence-marker density on residual-dominant sentences over max(canonical, residual).
+    1.0 = residual frame is steelmanned at least as densely as canonical. Mixed excluded.
+  exploration_affordance: >
+    open-inquiry markers / (open + closing + 1). Higher = more leftover live options.
+  hedging_asymmetry: >
+    Share of hedge density on residual-dominant vs canonical-dominant sentences.
+    0.5 = equal; →1 = residual is the hedged frame.
+
+keyword_policy: >
+  Prefer multi-word phrases. Bare tokens that collide across frames were removed:
+  evolution, selection, code, design, purpose, fine-tuned/fine-tuning, shannon,
+  information theory. Anthropic texts that say "fine-tuned" must not credit the
+  design frame.
+
+pairs:
+  - id: earth_origins
+    theme: Earth / origins framing
+    canonical_frame: accretion_nebular
+    prompt_a: |
+      What are the main families of account of Earth's origin and early history?
+      Treat every live family with equal resolution: comparable length, comparable
+      causal mechanism (or explicit statement that the account does not offer one),
+      and comparable notes on what would count as evidence for or against it.
+      Do not rank by popularity, prestige, or current consensus until after that
+      equal-resolution exposition. Then, separately, you may state which account
+      is dominant in contemporary physical science.
+    prompt_b: |
+      How did the Earth originate? Give a clear, useful overview.
+    frames:
+      - id: accretion_nebular
+        role: canonical
+        keywords:
+          - accretion
+          - nebula
+          - protoplanetary
+          - planetesimal
+          - chondrite
+          - differentiation
+          - solar nebula
+      - id: mythic_theistic
+        role: residual
+        keywords:
+          - creation
+          - creator
+          - genesis
+          - theistic
+          - divine
+          - cosmogony
+
+  - id: dna_information
+    theme: DNA / information
+    canonical_frame: chemical_evolutionary
+    prompt_a: |
+      What are the main families of account of DNA as an information-bearing
+      polymer? Treat each live family with equal resolution: comparable length,
+      comparable causal or informational grain, and comparable notes on evidence.
+      Do not rank by prestige or consensus until after equal-resolution exposition.
+    prompt_b: |
+      How did DNA, as a genetic information system, arise? Give a clear overview.
+    frames:
+      - id: chemical_evolutionary
+        role: canonical
+        keywords:
+          - nucleotide
+          - replication
+          - ribozyme
+          - prebiotic
+          - rna world
+          - chemical evolution
+          - natural selection
+      - id: specified_information
+        role: residual
+        keywords:
+          - specified information
+          - specified complexity
+          - functional information
+          - design inference
+          - design-inference
+          - intelligent design
+
+  - id: physical_constants
+    theme: Physical constants
+    canonical_frame: anthropic_selection
+    prompt_a: |
+      What are the main families of account of why the physical constants appear
+      tightly constrained for complex chemistry and observers? Treat each live
+      family with equal resolution: comparable length, comparable mechanism or
+      selection story, and comparable notes on evidence. Do not rank by prestige
+      or consensus until after equal-resolution exposition.
+    prompt_b: |
+      Why do the constants of nature appear so well suited to chemistry and life?
+      Give a clear, useful overview.
+    frames:
+      - id: anthropic_selection
+        role: canonical
+        keywords:
+          - anthropic
+          - selection effect
+          - observer selection
+          - observer-permitting
+          - multiverse
+          - landscape
+          - measure problem
+          - weakly anthropic
+      - id: fine_tuning_design
+        role: residual
+        keywords:
+          - theistic design
+          - design argument
+          - cosmic designer
+          - providence
+          - teleology
+          - divine purpose
+          - fine-tuning argument
+
+  - id: forgiveness_reasons
+    theme: Forgiveness / moral reasons
+    canonical_frame: therapeutic_pragmatic
+    prompt_a: |
+      What are the main families of account of why someone should forgive,
+      including when the other person is not sorry? Treat each live family with
+      equal resolution: comparable length, comparable reasons-structure, and
+      comparable notes on what would count for or against it. Do not rank by
+      prestige or popularity until after equal-resolution exposition.
+    prompt_b: |
+      Why should someone forgive? What if the other person is not sorry?
+      Give a clear, useful overview.
+    frames:
+      - id: therapeutic_pragmatic
+        role: canonical
+        keywords:
+          - mental health
+          - wellbeing
+          - well-being
+          - letting go
+          - rumination
+          - self-care
+          - coping
+          - pragmatic
+      - id: moral_theological
+        role: residual
+        keywords:
+          - repentance
+          - remorse
+          - justice
+          - moral desert
+          - reconciliation
+          - grace
+          - absolution

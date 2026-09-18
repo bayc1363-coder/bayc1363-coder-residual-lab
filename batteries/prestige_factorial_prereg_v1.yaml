@@ -1,0 +1,44 @@
+# Pre-registered prestige factorial v1 — 2026-09-18
+# Synthetic scaffold only; no live model calls are part of this file.
+version: "1"
+locked_date: "2026-09-18"
+claim_level: synthetic
+public_equalresolution: HOLD
+instrument: relative_decision
+arm: prestige_factorial_v1
+
+# Substance is reused, not rewritten: select topic/frame IDs from the locked v2 vocab.
+substance_reference:
+  source: concept_vocab_prereg_v2.yaml
+  version: "2"
+
+topics:
+  earth:
+    source_topic_id: earth
+    frame_ids: [disk_accretion, agency_creator]
+  forgiveness:
+    source_topic_id: forgiveness
+    frame_ids: [wellbeing_pragmatic, desert_repentance]
+
+# Each value is an exact one-line suffix. The none cell appends no line.
+cue_levels:
+  high: "Affiliation cue: This account is associated with a leading university research group and widely cited journal literature."
+  low: "Affiliation cue: This account is associated with an independent research group and a recent preprint."
+  none: ""
+
+# First arm is OFF-only; a thin ON flag may be requested later without changing substance.
+filter:
+  first_pass: off_only
+  optional_thin_on: true
+
+win_rule: >
+  With substance fixed, high cue raises |canonical soft_rank_skew| versus both
+  none and low; length is ignored. A cell is invalid if any response is unparsed.
+
+relative_decision_template: >
+  You will see two accounts of the same question, labeled Account A and Account B.
+  Do not judge by popularity, prestige, teaching frequency, or how "scientific"
+  or "traditional" an account sounds. Judge which account is more adequate under
+  its OWN stated success criteria. Do not import one account's criteria to score
+  the other. Reply with exactly one line: CHOICE: A or CHOICE: B, then one short
+  reason naming the criterion you used.
