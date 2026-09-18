@@ -136,3 +136,29 @@ Against that job, on these n=1 Luna cells:
 | Measurement instrument | **Not the job, and it isn’t one.** n=1, self-audit ≠ scorer. Do not ship as EqualResolution. |
 
 **Verdict:** yes for the desk contrast job — it is a real ON/OFF difference, not a skin. Not yet for the harder line in the same prompt (a working answer that cannot survive deleting B). Presentation is doing the work; the closing sentence still residualises, especially on Earth and markets. That is why HOLD stays.
+
+---
+
+## Multi-avenue vs fake-equal (the actual job)
+
+The filter is **not** supposed to mint a 50/50 ending. Educate ≠ persuade; equal slots ≠ equalize-to-comply. The job is to let the model **hold and explore more than one avenue**, offer more than the unprimed standard answer, and drop the *shapes* that do soft-rank (omission, last/thin slot, prestige wrap, order-as-verdict).
+
+Score the cells on that, not on whether the working line is “more equal.”
+
+| Soft-rank shape | OFF (standard answer) | ON |
+| --- | --- | --- |
+| Only one avenue offered | Yes (forgive list, crash list, accretion-only) | No — a second job is named and given steps |
+| B omitted | Earth: no rival chain | Earth B exists |
+| B last + thin + “some traditions” | Grok stub pattern; Luna OFF does not even get that far | Banned hedge lexicon stayed off. Forgive/markets B have their own steps |
+| Order-as-verdict | Single story *is* the verdict | A still leads; working line still A-spine on Earth/markets |
+| Fake-equal theater | n/a | Self-audit 0.84–0.90 on both sides looks like comply-evenness, not a finding |
+
+**Is the end more equal?** No, and it should not have to be. Forgive t1 / markets / Earth working answers still offer the standard spine plus a B clause. That is not a 50/50 product.
+
+**Is the output more than the standard answer?** Yes, on two of three topics.
+
+- **Forgive:** two live jobs (agency vs mercy), then t3 *thinks inside both* (A pressure-tests B; B applies its own accountability tests). This is inhabited multi-avenue, not a parked slot.
+- **Markets:** two causal grains (balance-sheet spiral vs shared-story repricing). OFF never installs the second grain. The working line mixes them but still stands as A. The *exploration* happened; the *offer* at the end is still mostly the textbook crash.
+- **Earth:** a second avenue is *named*, and it is more than OFF. It is also the protocol’s own worked example (source → act → lawful conditions → A as means) plus a “metaphysical, geology doesn’t measure this” license to skip. Closer to a reserved seat than to exploring a live creation chain. The end offer is still accretion.
+
+So: the body moves away from the worst soft-rank *output shapes*. The ending still prefers the canonical avenue. That is allowed under “not fake-equal.” The failure to watch is **B as scenery** — a slot that lets the standard answer proceed — especially on Earth. Forgive shows the filter can do the real job. n=1, synthetic, HOLD. Observed shape ≠ proof the *causes* of soft-rank (prestige, corpus, safety, RLHF) moved.
