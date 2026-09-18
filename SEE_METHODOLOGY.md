@@ -22,12 +22,12 @@ Read the design notes first:
 - [`research/stage2-educated-summary-notes-20260918.md`](research/stage2-educated-summary-notes-20260918.md)
 - [`research/stage2-micro-protocol-draft.md`](research/stage2-micro-protocol-draft.md)
 - [`research/knowledge-map-20260918.md`](research/knowledge-map-20260918.md)
-  — what this cloud run can see vs what still lives in local Cursor chats
-  (including the earlier phone app, which is **not** in this clone)
+  — what this cloud run can see vs other chats; phone app is on
+  [PR #3](https://github.com/bayc1363-coder/bayc1363-coder-residual-lab/pull/3)
 - [`research/local-chat-handoff-prompt.md`](research/local-chat-handoff-prompt.md)
-  — paste-into-local-chat prompt. Local chats write to
-  `$HOME/Desktop/residual-lab-drop/<slug>/` (no GitHub). Attach that
-  folder here; this cloud agent commits it.
+  — local chats write to `$HOME/Desktop/residual-lab-drop/<slug>/`.
+  This agent cannot take a zip or >20 files; large packs need a new
+  cloud agent on this repo (PR #3 pattern).
 
 The micro is optional and must not be run without explicit review. Current
 status is **claim_level: synthetic**, **Public EqualResolution: HOLD**, no

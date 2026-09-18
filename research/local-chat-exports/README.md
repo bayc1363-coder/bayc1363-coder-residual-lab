@@ -1,22 +1,15 @@
 # Local chat exports
 
-Specified **local** drop path (all desktop chats, no GitHub login):
+Desktop drop (local chats, no GitHub login):
 
 ```text
 $HOME/Desktop/residual-lab-drop/<slug>/
 ```
 
-This cloud agent cannot see that Desktop folder until it is attached here:
-https://cursor.com/agents/bc-0cb25124-0dd3-51bc-b30c-6d7e885d76a0
+**Ingest limit:** the Stage-2 cloud agent `bc-0cb25124` cannot take a zip or
+more than about 20 attached files. Large packs (the phone app) must go
+through a **new** cloud agent on this repo. That is how
+[PR #3](https://github.com/bayc1363-coder/bayc1363-coder-residual-lab/pull/3)
+landed `apps/frame-lab-phone/`.
 
 Paste prompt: [`../local-chat-handoff-prompt.md`](../local-chat-handoff-prompt.md)
-
-After ingest, packs live here:
-
-```
-research/local-chat-exports/<YYYYMMDD>-<slug>/
-  MANIFEST.md
-  INVENTORY.md
-  NOTES.md
-  …copied files…
-```

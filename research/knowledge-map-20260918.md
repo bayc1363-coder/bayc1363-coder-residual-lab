@@ -7,37 +7,35 @@ This file is a desk index, not a result. It records what this cloud agent can
 see, what the Stage-1/Stage-2 lock already says, and what is still only in
 local Cursor chats.
 
-## 1. Access limit (why the phone app is not here)
+## 1. Access limit (this cloud run)
 
-This run is a **cloud agent** on a new GitHub repo:
+This run is cloud agent `bc-0cb25124` on
+`bayc1363-coder/bayc1363-coder-residual-lab` (repo created 2026-09-18).
 
-- GitHub user `bayc1363-coder` and repo
-  `bayc1363-coder-residual-lab` were created 2026-09-18.
-- Cloud-agent listing for this environment returns **only this run**.
-- Local Cursor desktop/mobile chats, local worktrees, and other Cursor
-  environments are **not readable from here**.
+It can **not**:
 
-The earlier working phone app, if it lived in those local chats or a local
-folder, is therefore not in this checkout. Recreating it from memory would
-be a new app, not a restore. Do not treat this file as that app.
+- read local Cursor desktop chats
+- accept a **zip** attach
+- accept **more than about 20** ordinary file attaches
 
-### How to hand the local work into this repo
+So the working phone app could not come in through this chat. Another
+cloud agent with repo write access committed it.
 
-Any one of these is enough for a later agent to restore instead of guess:
+**Phone app location:** draft
+[PR #3](https://github.com/bayc1363-coder/bayc1363-coder-residual-lab/pull/3)
+branch `cursor/add-frame-lab-phone-b27e`, tree `apps/frame-lab-phone/`,
+slug `frame-lab-phone-20260918-084256`. Not merged to `main`. Not on
+this Stage-2 branch.
 
-1. Zip or copy the local app folder into this repo (preferred: `app/` or
-   `apps/phone/`).
-2. Push the local project as a branch, or attach the folder to a follow-up
-   in this cloud chat.
-3. Paste the local path plus `git remote -v` / last commit if it already
-   has its own git history.
-4. Paste the prompt in
-   [`local-chat-handoff-prompt.md`](local-chat-handoff-prompt.md) into each
-   local Cursor chat. They write only to
-   `$HOME/Desktop/residual-lab-drop/<slug>/`. Attach that Desktop folder
-   here; this cloud run commits it. Local chats must not `git push`.
+### How to hand large local work in
 
-Until one of those arrives, the phone app stays **missing**, not rewritten.
+1. Local chat writes `$HOME/Desktop/residual-lab-drop/<slug>/` (no git).
+2. Start a **new** Cursor cloud agent on this GitHub repo and give it that
+   folder. Pattern: PR #3.
+3. Do not attach zips or 20+ files to `bc-0cb25124`.
+4. Tiny notes-only packs (<20 files) can still attach here.
+
+Secrets stay out (no `.env.local`). EqualResolution HOLD. No deploy.
 
 ## 2. What is actually in this repo now
 
@@ -48,8 +46,10 @@ Until one of those arrives, the phone app stays **missing**, not rewritten.
 | [`stage2-micro-protocol-draft.md`](stage2-micro-protocol-draft.md) | Optional tiny Stage-2 micro; **do not run live** |
 | this file | Cross-chat recovery index |
 
-`main` was otherwise empty (`readme` only). There is no `app/`, no Expo /
-React Native / PWA tree, and no `out/p0-runs/` battery dump in this clone.
+`main` is still almost empty. **This Stage-2 branch** is notes only. The
+phone app is on **another branch / PR #3**: `apps/frame-lab-phone/`
+(Next.js mobile Frame Lab / equal-res chat). No `out/p0-runs/` dump in
+this clone.
 
 ## 3. Locked research knowledge (from the Stage-2 desk notes)
 
@@ -96,7 +96,7 @@ chats. They are **expected missing** until copied in:
 | `research/cl4r1t4s-prompt-feature-checklist-v1.md` | prestige/misinfo fence audit (audit only) |
 | `out/p0-runs/synthesis-20260918/` | triangle battery synthesis (one-line finding only here) |
 | `out/p0-runs/lit-evidence-20260918/SUMMARY.md` | soft-blindness / prestige-soft-rank analogues |
-| phone / PWA / Expo app (local Cursor) | the working app from a few days ago |
+| phone app | **landed** on PR #3 `apps/frame-lab-phone/` (not this branch) |
 
 Copy those in as files. Do not reconstruct battery numbers from this
 index.
@@ -113,12 +113,7 @@ From the Stage-2 notes, still for Boris when credits reset:
 
 ## 6. Next restore step
 
-When the local phone-app folder or chat export lands in this repo, a later
-turn should:
-
-1. Place the app under a single obvious tree (`app/` or `apps/phone/`).
-2. Point `SEE_METHODOLOGY.md` at it as a **desk UI**, not a public
-   EqualResolution product.
-3. Keep the HOLD: no live model API battery, no deploy.
-
-Until then, this repo is methodology + Stage-2 design only.
+Phone app: already on PR #3. Do not rewrite it on this branch. After merge,
+point methodology at `apps/frame-lab-phone/` as a **desk UI**, not a public
+EqualResolution product. Keep the HOLD: no live model API battery, no
+deploy. Large future drops: new cloud agent, not this chat.
