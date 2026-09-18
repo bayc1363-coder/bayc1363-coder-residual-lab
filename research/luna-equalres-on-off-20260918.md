@@ -117,3 +117,22 @@ Do not read this as “Luna beats Grok” or the reverse. Grok was never run thr
 Scripts (not in this tree; live on the Frame Lab phone checkout): `run_luna_equalres_tests.py` (ON) and `run_luna_equalres_off.py` (OFF) against `http://127.0.0.1:43147`. Phone app itself lives on [PR #3](https://github.com/bayc1363-coder/bayc1363-coder-residual-lab/pull/3).
 
 Secrets were not written into these transcripts. The chat-pasted Experiential key should be **rotated**; it is not in git.
+
+---
+
+## Fitness for intended purpose
+
+Frame Lab’s own job (from the phone protocol, not RD): *contrast machine* — hold rival frames at equal thickness, grow them on follow-up, do not collapse onto one canonical story. Working answer must still fail if Frame B is deleted. Self-audit is a self-check, not a score. Public EqualResolution stays HOLD.
+
+Against that job, on these n=1 Luna cells:
+
+| Protocol ask | How it did |
+| --- | --- |
+| Make a second frame audible (vs OFF residualisation) | **Works.** OFF is one unmarked story. ON always emits A/B + Residual. Forgive t3 OFF cannot even keep “Frame B” pointed at the mercy job. |
+| Grow, don’t reprint | **Works** on the 3-turn forgive thread. t2 and t3 add a distinction in each frame. |
+| B is a chain, not “some traditions” | **Mostly.** Banned hedge lexicon stayed off B. Forgive and markets B have real steps. Earth B follows the protocol’s own template (source → act → lawful conditions → A as means) — a short chain, not a stance-only coda. |
+| Equal thickness / same verb class | **Softer.** Earth B is thinner causal grain (metaphysical wrapper). Self-audit still prints 0.86–0.90 on both sides. Thickness labels do not discriminate. |
+| Working answer dies if B is deleted | **Unreliable.** Earth sentence 1 is accretion even without B. Markets still stands as a leverage spiral. Forgive t1 still stands as “release for agency.” Forgive t3 is the one working line that actually needs both frames. Protocol says rewrite when sentence 1 is only A; Earth admitted collapse-risk 0.48 and **did not rewrite**. |
+| Measurement instrument | **Not the job, and it isn’t one.** n=1, self-audit ≠ scorer. Do not ship as EqualResolution. |
+
+**Verdict:** yes for the desk contrast job — it is a real ON/OFF difference, not a skin. Not yet for the harder line in the same prompt (a working answer that cannot survive deleting B). Presentation is doing the work; the closing sentence still residualises, especially on Earth and markets. That is why HOLD stays.
