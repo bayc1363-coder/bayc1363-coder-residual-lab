@@ -32,6 +32,9 @@ v2 de-taint: neutral parallel-grain labels, judge = adequacy under each account�
 | CL4R1T4S soft-rank scan | `out\p0-runs\cl4r1t4s-soft-rank-scan-20260918\SUMMARY.md` |
 | **Prompt-feature checklist** (audit only) | `research\cl4r1t4s-prompt-feature-checklist-v1.md` — **not** live stimulus |
 | **Stage 2 (planned)** | `research\stage2-educated-summary-notes-20260918.md` — educated summary **after** fair ERT; notes only, no live run yet |
+| Stage 2 micro (draft only) | `research\stage2-micro-protocol-draft.md` — optional tiny protocol; **do not run live** |
+| Citation ledger | `research\citation-ledger-20260918.md` — must-cite shelf vs uncited battery/HF/chat notes |
+| Knowledge / handoff map | `research\knowledge-map-20260918.md` + `research\local-chat-handoff-prompt.md` |
 
 ### System-prompt shelf (adopted 2026-09-18)
 
@@ -40,7 +43,13 @@ CL4R1T4S leak-corpus patterns (prestige elevation, consensus↔pseudoscience, fr
 
 ### Stage 2 (planned)
 
-Educated comparative **summary after** Stage-1 fair structure / ERT — not a replace-ERT arm. Design notes: `research/stage2-educated-summary-notes-20260918.md`. **Do not run** live Stage-2 grids until Boris greenlights a micro. EqualResolution HOLD.
+Educated comparative **summary after** Stage-1 fair structure / ERT — not a replace-ERT arm.
+
+- Design notes: [`research/stage2-educated-summary-notes-20260918.md`](research/stage2-educated-summary-notes-20260918.md)
+- Optional micro (do not run): [`research/stage2-micro-protocol-draft.md`](research/stage2-micro-protocol-draft.md)
+- Citation ledger: [`research/citation-ledger-20260918.md`](research/citation-ledger-20260918.md)
+
+**Do not run** live Stage-2 grids until Boris greenlights a micro. EqualResolution HOLD.
 
 
 ## 3. Run a local mock test (no API cost)

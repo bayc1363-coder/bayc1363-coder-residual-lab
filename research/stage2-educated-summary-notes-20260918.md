@@ -122,6 +122,8 @@ Pointer (battery numbers live elsewhere): `out/p0-runs/synthesis-20260918/` — 
 - Out dir (suggested): `out/p0-runs/stage2-educated-summary-micro-YYYYMMDD/`  
 - **Stop rule:** no public EqualResolution language; no deploy; abort if prompt drifts into persuade-to-comply.
 
+Companion protocol draft (still do not run): [`stage2-micro-protocol-draft.md`](stage2-micro-protocol-draft.md).
+
 ---
 
 ## 8. Open questions for Boris (when credits reset)
@@ -136,3 +138,4 @@ Pointer (battery numbers live elsewhere): `out/p0-runs/synthesis-20260918/` — 
 ## Changelog
 
 - **2026-09-18:** Initial notes from Boris Stage-1/Stage-2 lock via residual. Notes only; no live run.
+- **2026-09-18:** Point the optional micro at `stage2-micro-protocol-draft.md` (design-only).
