@@ -12,6 +12,8 @@ Stage 2 was **not** fed OFF. The floor from the first test still stands: without
 
 **claim_level:** synthetic · HOLD · n=1 · Luna reading Luna on Stage 2.
 
+**Lock (Boris, 2026-09-18):** a 50/50 ending would be fake in many contexts. Stage 2 is not scored on even thickness or a split decision. Success is inhabited avenues plus a lean only where an account’s own test in the packet supports it. WP v5: narrative balance without false equivalence.
+
 ---
 
 ## End offer, same questions

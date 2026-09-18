@@ -6,7 +6,7 @@
 
 A/B is good as **Stage 1**. The next layer is not another equal-res pass and not a cold re-answer. It is an **educated decision layer**: primed with residualisation research and the working paper (analytic background only), looking at the Stage-1 outputs, considering substance **and** the soft-rank aspects.
 
-Educate ≠ persuade. Not fake-equal. Not a second collapse onto the standard answer.
+Educate ≠ persuade. Not fake-equal. Not a second collapse onto the standard answer. A 50/50 ending would be fake in many contexts — do not score Stage 2 on even thickness or a split decision.
 
 This is the Stage 2 already on the desk (`stage2-educated-summary-notes-20260918.md`), now wired to Frame Lab as the Stage-1 producer. Companion prompt: [`stage2-decision-layer-prompt-draft.md`](stage2-decision-layer-prompt-draft.md). Micro still: [`stage2-micro-protocol-draft.md`](stage2-micro-protocol-draft.md).
 
