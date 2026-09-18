@@ -54,3 +54,5 @@ First-test ON printed 0.84–0.90 thickness on both sides (fake-even). Stage 2�
 First test: the filter **installs** a second avenue.  
 Stage 2: an educated read **keeps** that avenue when it decides — except Earth, where it keeps the question and still picks the standard how.  
 The first test’s failure mode was a collapsed last sentence. Stage 2 mostly repairs that on forgive/markets and only names it on Earth.
+
+Multi-turn forgive (live Stage 2 over grown Stage-1 packets): [`stage2-multiturn-forgive-20260918.md`](stage2-multiturn-forgive-20260918.md). t2/t3 grow both accounts; modest α lean when “not sorry” / “count against mercy” hits α’s test. Not 50/50. First-test OFF still loses Frame B by t3.
