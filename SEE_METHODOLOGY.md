@@ -47,6 +47,7 @@ CL4R1T4S leak-corpus patterns (prestige elevation, consensus↔pseudoscience, fr
 Educated comparative **summary after** Stage-1 fair structure / ERT — not a replace-ERT arm.
 
 - Design notes: [`research/stage2-educated-summary-notes-20260918.md`](research/stage2-educated-summary-notes-20260918.md)
+- Decision layer after Frame Lab A/B (do not run): [`research/stage2-decision-layer-20260918.md`](research/stage2-decision-layer-20260918.md)
 - Optional micro (do not run): [`research/stage2-micro-protocol-draft.md`](research/stage2-micro-protocol-draft.md)
 - Citation ledger: [`research/citation-ledger-20260918.md`](research/citation-ledger-20260918.md)
 

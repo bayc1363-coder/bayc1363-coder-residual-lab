@@ -16,8 +16,10 @@ Use the smallest exploratory grid that can expose prompt failure:
 
 - **Domains:** one triangle domain initially (recommended: `constants`);
   optionally add one contested domain only after review.
-- **Stage-1 producer:** `structure_ert`, producing two coherent frame
-  writeups, or one dual-slot transcript from which two slots are extracted.
+- **Stage-1 producer:** `structure_ert`, or a Frame Lab equal-res ON
+  transcript (`## Frame A` / `## Frame B` extracted to α/β). Luna ON
+  packets from 2026-09-18 are ready fixtures; do not use OFF as a
+  writeup. Still **do not send Stage 2 to a live API** from this draft.
 - **Stage-2 summarizer:** one approved model initially; a second model is an
   optional cross-model contrast, not a requirement.
 - **Seeds:** at most two per domain/model cell.
@@ -39,8 +41,9 @@ For each future cell, prepare:
    the Stage-2 summarizer as authority.
 3. Neutral labels assigned after Stage 1. Labels must not encode `dominant`,
    `residual`, `minority`, prestige, or presentation order.
-4. Optional short analytic education text defining residualisation and
-   soft-rank as decision-architecture concepts.
+4. Analytic education text: residualisation / soft-rank as decision
+   architecture (in-repo working defs now; WP excerpt when present).
+   Educate ≠ persuade. See `stage2-decision-layer-prompt-draft.md`.
 5. A domain question and a machine-readable cell manifest containing only
    synthetic identifiers, seed, domain, model arm, and prompt version.
 

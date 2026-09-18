@@ -112,7 +112,10 @@ index.
 
 From the Stage-2 notes, still for Boris when credits reset:
 
-1. Stage-2 education load: WP v5 excerpt vs shorter primer vs none?
+1. Stage-2 education load: **direction 2026-09-18 — resid research + WP
+   (analytic)**. Working defs in-repo; do not invent WP v5. Decision
+   layer: [`stage2-decision-layer-20260918.md`](stage2-decision-layer-20260918.md).
+   Still **do not run live**.
 2. Same model for Stage 1 and Stage 2, or forced cross-model summarizer?
 3. Cautious substantive lean allowed if both frames stay fully
    elaborated, or must the summary stay non-verdictive?
