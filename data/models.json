@@ -1,0 +1,41 @@
+{
+  "_comment": "Edit this list anytime. These are Experiential chat model slugs, not Hugging Face dataset IDs. mock always works offline. Live rows use OpenAI-compatible base_url (default_base_url or per-row base_url) plus EXPLABS_API_KEY / RESIDUAL_LAB_API_KEY. Empty api_key_env uses those env names.",
+  "default_base_url": "https://api.experientiallabs.ai/v1",
+  "models": [
+    {
+      "id": "mock",
+      "label": "mock — offline stub (no key)",
+      "tier": "offline"
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "label": "deepseek-v4.1-flash — Experiential paid",
+      "tier": "paid"
+    },
+    {
+      "id": "gemma-4-26b-a4b-it-free",
+      "label": "gemma-4-26b-a4b-it-free — Experiential free",
+      "tier": "free"
+    },
+    {
+      "id": "minimax-m2.7-free",
+      "label": "minimax-m2.7-free — Experiential free",
+      "tier": "free"
+    },
+    {
+      "id": "laguna-s-2.1-free",
+      "label": "laguna-s-2.1-free — Experiential free",
+      "tier": "free"
+    },
+    {
+      "id": "lfm-2.5-2.6b-free",
+      "label": "lfm-2.5-2.6b-free — Experiential free",
+      "tier": "free"
+    },
+    {
+      "id": "other",
+      "label": "Other… (type id below)",
+      "tier": "custom"
+    }
+  ]
+}

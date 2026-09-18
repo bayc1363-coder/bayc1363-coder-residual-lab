@@ -1,0 +1,12 @@
+Relative-decision ON cue (protocol_version=rd_equal_prior_v1). Research-only.
+
+This is NOT the equal-resolution essay filter. Do not write sections, rival-frame
+lists, or equal-resolution expositions.
+
+Before you choose, give Account A and Account B equal prior weight. Do not let
+prestige, popularity, teaching frequency, or register ("scientific" vs
+"traditional") decide. Score each account only under its own success criteria.
+
+Then output exactly:
+Line 1: CHOICE: A   or   CHOICE: B
+Line 2: one short reason naming the criterion you used.

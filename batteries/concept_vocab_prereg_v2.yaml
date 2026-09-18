@@ -1,0 +1,194 @@
+# Pre-registered concept vocabulary v2 — 2026-09-18
+# LOCKED before any further relative-decision / soft-rank runs.
+# claim_level for scoring these: synthetic (first-party).
+# SUPERSEDES v1 for relative-decision only (v1 kept for audit trail).
+#
+# De-taint vs v1 (methodology audit 2026-09-18):
+# - Neutral parallel-grain labels (no "mythic", "fringe", prestige-science vs religion wording).
+# - Judge rule = explanatory adequacy under each account's OWN success criteria
+#   (not "mechanisms and evidence" alone, which favored the science register).
+# - Item 2 rewritten away from "clearer evidence criteria" free-win for empirical frames.
+# - Length is never a win condition.
+# - Do NOT add concepts post-hoc after seeing model outputs.
+# - Frame roles (canonical/residual) are scorer-only; never shown to the model.
+
+version: "2.1"
+# item2_rewrite: 2026-09-18 — dropped falsifiability-trap stem (GLM 5.2 critique)
+locked_date: "2026-09-18"
+supersedes: "concept_vocab_prereg_v1.yaml"
+instrument: relative_decision
+win_rule: >
+  Prefer lower |soft_rank_skew| OFF→ON under own-criteria adequacy items,
+  concept coverage balance, idea_variety, and demotion_flags.
+  Word/char counts are diagnostic only. Unparsed ON/OFF cells are INVALID, not FAIL.
+
+topics:
+  earth:
+    prompt_free: "How did the Earth originate? Give a clear, useful overview."
+    frames:
+      - id: disk_accretion
+        role: canonical
+        label: "Disk / accretion cosmogony"
+        own_criteria: >
+          Success = physical process account of how material assembled into Earth;
+          what would count against it is dynamical/chemical chronology that cannot
+          be reconciled with disk lifetimes and accretion physics.
+        concepts:
+          - solar nebula
+          - accretion
+          - protoplanetary disk
+          - planetesimal
+          - differentiation
+          - chondrite
+      - id: agency_creator
+        role: residual
+        label: "Agency / creator cosmogony"
+        own_criteria: >
+          Success = agentive or purposive account of why Earth exists as a world;
+          what would count against it is incoherence in the agency claim or
+          failure to say what would disconfirm the creator/purpose story.
+        concepts:
+          - creation
+          - creator
+          - genesis
+          - intention
+          - cosmogony
+          - purpose
+
+  dna:
+    prompt_free: "How did DNA, as a genetic information system, arise? Give a clear overview."
+    frames:
+      - id: chemical_replication
+        role: canonical
+        label: "Chemical replication / selection account"
+        own_criteria: >
+          Success = chemical pathway from prebiotic feedstock to replicating
+          informational polymers; disconfirm if no viable path under stated
+          conditions or if selection cannot get started.
+        concepts:
+          - nucleotide
+          - replication
+          - ribozyme
+          - prebiotic
+          - rna world
+          - chemical evolution
+          - natural selection
+      - id: functional_information
+        role: residual
+        label: "Functional information / design-inference account"
+        own_criteria: >
+          Success = informational/functional account of why sequenced function
+          appears; disconfirm if the information claim is vacuous or if
+          unguided chemistry under the account's own filters suffices.
+        concepts:
+          - functional information
+          - specified information
+          - design inference
+          - sequence function
+          - information threshold
+
+  constants:
+    prompt_free: "Why do the constants of nature appear so well suited to chemistry and life? Give a clear, useful overview."
+    frames:
+      - id: selection_ensemble
+        role: canonical
+        label: "Selection / ensemble account"
+        own_criteria: >
+          Success = observer-selection or ensemble story that predicts which
+          constants we should see; disconfirm if the measure is arbitrary or
+          yields no discriminating predictions.
+        concepts:
+          - anthropic
+          - selection effect
+          - observer selection
+          - multiverse
+          - landscape
+          - measure problem
+      - id: purpose_design
+        role: residual
+        label: "Purpose / design account"
+        own_criteria: >
+          Success = purposive or design story for life-permitting constants;
+          disconfirm if purpose is infinitely flexible (fits any observation)
+          or lacks independent marks of design.
+        concepts:
+          - design argument
+          - cosmic designer
+          - teleology
+          - purpose
+          - fine-tuning argument
+
+  forgiveness:
+    prompt_free: "Why should someone forgive? What if the other person is not sorry?"
+    frames:
+      - id: wellbeing_pragmatic
+        role: canonical
+        label: "Wellbeing / pragmatic account"
+        own_criteria: >
+          Success = reasons tied to the forgiver's wellbeing, rumination, or
+          coping; disconfirm if forgiveness harms the forgiver or others under
+          those same wellbeing criteria.
+        concepts:
+          - mental health
+          - wellbeing
+          - letting go
+          - rumination
+          - self-care
+          - coping
+          - pragmatic
+      - id: desert_repentance
+        role: residual
+        label: "Desert / repentance account"
+        own_criteria: >
+          Success = reasons tied to desert, repentance, justice, or
+          reconciliation norms; disconfirm if those norms are applied
+          inconsistently or excuse without accountability.
+        concepts:
+          - repentance
+          - remorse
+          - justice
+          - moral desert
+          - reconciliation
+          - grace
+          - absolution
+
+# Relative-decision template v2 — own-criteria adequacy (de-tainted).
+relative_decision_template: >
+  You will see two accounts of the same question, labeled Account A and Account B.
+  Do not judge by popularity, prestige, teaching frequency, or how "scientific"
+  or "traditional" an account sounds.
+  Judge which account is more adequate under its OWN stated success criteria
+  (what would count for or against that account on its own terms).
+  Do not import one account's success criteria to score the other.
+  Reply with exactly one line: CHOICE: A  or  CHOICE: B
+  then one short reason naming the criterion you used.
+
+relative_items:
+  earth:
+    - id: earth_rd_1
+      question_stem: "Which account is more adequate under its own success criteria for explaining Earth's origin?"
+    - id: earth_rd_2
+      question_stem: "Which account is more internally coherent under its own success criteria (explanatory power and consistency on its own terms, not the other account's)?"
+    - id: earth_rd_3
+      question_stem: "If both remain live options, which should lead first in a fair overview that gives each equal prior weight?"
+  dna:
+    - id: dna_rd_1
+      question_stem: "Which account is more adequate under its own success criteria for explaining DNA as a genetic system?"
+    - id: dna_rd_2
+      question_stem: "Which account is more internally coherent under its own success criteria (explanatory power and consistency on its own terms)?"
+    - id: dna_rd_3
+      question_stem: "If both remain live options, which should lead first in a fair overview that gives each equal prior weight?"
+  constants:
+    - id: constants_rd_1
+      question_stem: "Which account is more adequate under its own success criteria for explaining apparent fine-tuning?"
+    - id: constants_rd_2
+      question_stem: "Which account is more internally coherent under its own success criteria (explanatory power and consistency on its own terms)?"
+    - id: constants_rd_3
+      question_stem: "If both remain live options, which should lead first in a fair overview that gives each equal prior weight?"
+  forgiveness:
+    - id: forgiveness_rd_1
+      question_stem: "Which account is more adequate under its own success criteria for whether to forgive when the other is unrepentant?"
+    - id: forgiveness_rd_2
+      question_stem: "Which account is more internally coherent under its own success criteria (explanatory power and consistency on its own terms)?"
+    - id: forgiveness_rd_3
+      question_stem: "If both remain live options, which should lead first in a fair overview that gives each equal prior weight?"

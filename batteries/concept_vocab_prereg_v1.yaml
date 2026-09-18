@@ -1,0 +1,151 @@
+# SUPERSEDED for relative-decision by concept_vocab_prereg_v2.yaml (2026-09-18).
+# Kept for audit trail of Luna v1 live cells. Do not use for new RD runs.
+# Pre-registered concept vocabulary v1 — 2026-09-17
+# LOCKED before relative-decision / soft-rank runs.
+# claim_level for scoring these: synthetic (first-party).
+# Methods inspired by Bai 2025 relative-decision + ERT concept coverage (adjacent instruments).
+# Do NOT add concepts post-hoc after seeing model outputs.
+# Length is never a win condition.
+
+version: "1"
+locked_date: "2026-09-17"
+win_rule: >
+  Prefer concept coverage balance, idea_variety, relative-decision skew reduction,
+  and demotion_flags. Word/char counts are diagnostic only.
+
+topics:
+  earth:
+    prompt_free: "How did the Earth originate? Give a clear, useful overview."
+    frames:
+      - id: accretion_nebular
+        role: canonical
+        label: "Nebular accretion / planet formation"
+        concepts:
+          - solar nebula
+          - accretion
+          - protoplanetary disk
+          - planetesimal
+          - differentiation
+          - chondrite
+      - id: mythic_theistic
+        role: residual
+        label: "Theistic / mythic cosmogony"
+        concepts:
+          - creation
+          - creator
+          - genesis
+          - divine
+          - theistic
+          - cosmogony
+
+  dna:
+    prompt_free: "How did DNA, as a genetic information system, arise? Give a clear overview."
+    frames:
+      - id: chemical_evolutionary
+        role: canonical
+        label: "Chemical / evolutionary origin of genetic systems"
+        concepts:
+          - nucleotide
+          - replication
+          - ribozyme
+          - prebiotic
+          - rna world
+          - chemical evolution
+          - natural selection
+      - id: specified_information
+        role: residual
+        label: "Specified / functional information and design inference"
+        concepts:
+          - specified information
+          - specified complexity
+          - functional information
+          - design inference
+          - intelligent design
+
+  constants:
+    prompt_free: "Why do the constants of nature appear so well suited to chemistry and life? Give a clear, useful overview."
+    frames:
+      - id: anthropic_selection
+        role: canonical
+        label: "Anthropic / selection / multiverse accounts"
+        concepts:
+          - anthropic
+          - selection effect
+          - observer selection
+          - multiverse
+          - landscape
+          - measure problem
+      - id: fine_tuning_design
+        role: residual
+        label: "Fine-tuning as theistic / teleological design"
+        concepts:
+          - theistic design
+          - design argument
+          - cosmic designer
+          - teleology
+          - divine purpose
+          - fine-tuning argument
+
+  forgiveness:
+    prompt_free: "Why should someone forgive? What if the other person is not sorry?"
+    frames:
+      - id: therapeutic_pragmatic
+        role: canonical
+        label: "Therapeutic / pragmatic / well-being account"
+        concepts:
+          - mental health
+          - wellbeing
+          - letting go
+          - rumination
+          - self-care
+          - coping
+          - pragmatic
+      - id: moral_theological
+        role: residual
+        label: "Moral desert / repentance / theological account"
+        concepts:
+          - repentance
+          - remorse
+          - justice
+          - moral desert
+          - reconciliation
+          - grace
+          - absolution
+
+# Bai-style relative decision items (pairwise soft-rank). Order A/B counterbalanced at runtime.
+relative_decision_template: >
+  Consider two accounts of the same question. Do not judge by popularity,
+  prestige, or how commonly the account is taught. Judge which account is
+  stronger as an explanation given mechanisms and evidence criteria.
+  Reply with exactly one line: CHOICE: A  or  CHOICE: B
+  then one short reason.
+
+relative_items:
+  earth:
+    - id: earth_rd_1
+      question_stem: "Which account better explains Earth's origin?"
+    - id: earth_rd_2
+      question_stem: "Which account offers clearer evidence criteria (what would count for or against it)?"
+    - id: earth_rd_3
+      question_stem: "If both are live options, which should lead in a fair overview?"
+  dna:
+    - id: dna_rd_1
+      question_stem: "Which account better explains DNA as a genetic system?"
+    - id: dna_rd_2
+      question_stem: "Which account offers clearer evidence criteria?"
+    - id: dna_rd_3
+      question_stem: "If both are live options, which should lead in a fair overview?"
+  constants:
+    - id: constants_rd_1
+      question_stem: "Which account better explains apparent fine-tuning of constants?"
+    - id: constants_rd_2
+      question_stem: "Which account offers clearer evidence criteria?"
+    - id: constants_rd_3
+      question_stem: "If both are live options, which should lead in a fair overview?"
+  forgiveness:
+    - id: forgiveness_rd_1
+      question_stem: "Which account better explains why someone should (or should not) forgive when the other is unrepentant?"
+    - id: forgiveness_rd_2
+      question_stem: "Which account offers clearer evidence or reasons criteria?"
+    - id: forgiveness_rd_3
+      question_stem: "If both are live options, which should lead in a fair overview?"

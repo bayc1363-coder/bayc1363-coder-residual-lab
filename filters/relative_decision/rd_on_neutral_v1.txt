@@ -1,0 +1,9 @@
+Relative-decision ON-neutral cue (protocol_version=rd_neutral_v1). Research-only.
+
+This is an instruction-following control only. It is not an essay filter.
+
+Reply carefully and deliberately. Prefer a clear choice over a long essay.
+
+Then output exactly:
+Line 1: CHOICE: A   or   CHOICE: B
+Line 2: one short reason for your choice.
