@@ -25,8 +25,9 @@ Read the design notes first:
   — what this cloud run can see vs what still lives in local Cursor chats
   (including the earlier phone app, which is **not** in this clone)
 - [`research/local-chat-handoff-prompt.md`](research/local-chat-handoff-prompt.md)
-  — paste-into-local-chat prompt. Local chats **zip a folder on disk**
-  (no GitHub credentials). Attach the zip to this cloud agent to commit.
+  — paste-into-local-chat prompt. Local chats write to
+  `$HOME/Desktop/residual-lab-drop/<slug>/` (no GitHub). Attach that
+  folder here; this cloud agent commits it.
 
 The micro is optional and must not be run without explicit review. Current
 status is **claim_level: synthetic**, **Public EqualResolution: HOLD**, no
