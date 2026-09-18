@@ -1,6 +1,6 @@
 # Stage 2 decision-layer prompt (draft)
 
-**Status:** draft stimulus — **do not send to a live model** without a micro greenlight.  
+**Status:** draft stimulus. Micro greenlit 2026-09-18 (`scripts/run_stage2_decision_layer.py`). claim_level synthetic. HOLD.  
 **claim_level:** synthetic · Public EqualResolution: HOLD  
 **Education:** [`stage2-education-wp-v5-excerpt.md`](stage2-education-wp-v5-excerpt.md) from uploaded WP v5 ([`residualisation-wp-v5.md`](residualisation-wp-v5.md)). Analytic only. Do not invent a public id.
 

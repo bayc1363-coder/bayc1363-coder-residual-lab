@@ -1,7 +1,7 @@
 # Stage 2 — Decision layer after Frame Lab A/B
 
 **Date:** 2026-09-18  
-**Status:** design lock from Boris direction — **do not run live** until an explicit micro greenlight  
+**Status:** design lock; micro greenlit 2026-09-18. Runner: `scripts/run_stage2_decision_layer.py`. Still synthetic / HOLD / no deploy.  
 **claim_level:** synthetic · **Public EqualResolution: HOLD** · no deploy · no prestige×info live
 
 A/B is good as **Stage 1**. The next layer is not another equal-res pass and not a cold re-answer. It is an **educated decision layer**: primed with residualisation research and the working paper (analytic background only), looking at the Stage-1 outputs, considering substance **and** the soft-rank aspects.
