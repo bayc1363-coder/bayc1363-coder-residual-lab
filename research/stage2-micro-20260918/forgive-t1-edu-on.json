@@ -1,0 +1,33 @@
+{
+  "slug": "forgive-t1-edu-on",
+  "packet": "forgive-t1",
+  "question": "Why should someone forgive?",
+  "assign": {
+    "alpha_source": "A",
+    "beta_source": "B",
+    "alpha_name": "Recovery and agency",
+    "beta_name": "Mercy and moral repair",
+    "swap": false,
+    "education": true
+  },
+  "flags": {
+    "chars": 5367,
+    "headings": {
+      "## Shared": true,
+      "## Disputed": true,
+      "## Needs": true,
+      "## Shape": true,
+      "## Open": true,
+      "## Decision": true
+    },
+    "mentions_alpha": true,
+    "mentions_beta": true,
+    "demotion_hits": [],
+    "comply_hits": [],
+    "has_frame_headers": false
+  },
+  "mode": "live",
+  "model": "gpt-5.6-luna",
+  "error": null,
+  "user_chars": 4555
+}

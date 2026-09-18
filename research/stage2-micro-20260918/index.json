@@ -1,0 +1,208 @@
+{
+  "status": {
+    "live": true,
+    "model": "gpt-5.6-luna",
+    "baseHost": "api.experientiallabs.ai",
+    "searchProvider": "duckduckgo"
+  },
+  "cells": [
+    {
+      "slug": "forgive-t1-edu-on",
+      "packet": "forgive-t1",
+      "question": "Why should someone forgive?",
+      "assign": {
+        "alpha_source": "A",
+        "beta_source": "B",
+        "alpha_name": "Recovery and agency",
+        "beta_name": "Mercy and moral repair",
+        "swap": false,
+        "education": true
+      },
+      "flags": {
+        "chars": 5367,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mode": "live",
+      "model": "gpt-5.6-luna",
+      "error": null,
+      "user_chars": 4555
+    },
+    {
+      "slug": "earth-edu-on",
+      "packet": "earth",
+      "question": "How did the Earth originate?",
+      "assign": {
+        "alpha_source": "A",
+        "beta_source": "B",
+        "alpha_name": "Planetary accretion",
+        "beta_name": "Ordered creation",
+        "swap": false,
+        "education": true
+      },
+      "flags": {
+        "chars": 5295,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mode": "live",
+      "model": "gpt-5.6-luna",
+      "error": null,
+      "user_chars": 5194
+    },
+    {
+      "slug": "earth-edu-on-swap",
+      "packet": "earth",
+      "question": "How did the Earth originate?",
+      "assign": {
+        "alpha_source": "B",
+        "beta_source": "A",
+        "alpha_name": "Ordered creation",
+        "beta_name": "Planetary accretion",
+        "swap": true,
+        "education": true
+      },
+      "flags": {
+        "chars": 5276,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mode": "live",
+      "model": "gpt-5.6-luna",
+      "error": null,
+      "user_chars": 5194
+    },
+    {
+      "slug": "earth-edu-off",
+      "packet": "earth",
+      "question": "How did the Earth originate?",
+      "assign": {
+        "alpha_source": "A",
+        "beta_source": "B",
+        "alpha_name": "Planetary accretion",
+        "beta_name": "Ordered creation",
+        "swap": false,
+        "education": false
+      },
+      "flags": {
+        "chars": 4671,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mode": "live",
+      "model": "gpt-5.6-luna",
+      "error": null,
+      "user_chars": 3471
+    },
+    {
+      "slug": "markets-edu-on",
+      "packet": "markets",
+      "question": "Why do markets crash?",
+      "assign": {
+        "alpha_source": "A",
+        "beta_source": "B",
+        "alpha_name": "Fragility and forced selling",
+        "beta_name": "Repricing of a shared economic story",
+        "swap": false,
+        "education": true
+      },
+      "flags": {
+        "chars": 5661,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mode": "live",
+      "model": "gpt-5.6-luna",
+      "error": null,
+      "user_chars": 5192
+    },
+    {
+      "slug": "forgive-t3-edu-on",
+      "packet": "forgive-t3",
+      "question": "What would count against Frame B without turning it into failed psychology?",
+      "assign": {
+        "alpha_source": "A",
+        "beta_source": "B",
+        "alpha_name": "Recovery and agency",
+        "beta_name": "Mercy and moral repair",
+        "swap": false,
+        "education": true
+      },
+      "flags": {
+        "chars": 5625,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mode": "live",
+      "model": "gpt-5.6-luna",
+      "error": null,
+      "user_chars": 4977
+    }
+  ]
+}

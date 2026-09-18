@@ -64,6 +64,7 @@ Sample ERT rubric numbers in `ert_rubric.jsonl` / `ert.md` are marked
 | Live model cells (Luna, MiniMax, DeepSeek) | Protocol/HOLDs in app notes; **not** a published battery in this GitHub tree. |
 | Luna Frame Lab ON vs OFF (2026-09-18) | Filed as [`luna-equalres-on-off-20260918.md`](luna-equalres-on-off-20260918.md). Lab probe, **not** a citation. n=1. Self-audit ≠ scorer. |
 | Residualisation WP v5 (Aug 2026 draft) | Filed as [`residualisation-wp-v5.md`](residualisation-wp-v5.md). **No public id** in the file. Do not mint arXiv/DOI. Not a must-cite shelf item. Stage 2 uses the analytic excerpt only. |
+| Stage 2 micro 2026-09-18 | [`stage2-micro-20260918.md`](stage2-micro-20260918.md). Lab probe, **not** a citation. n=1. Same model as Stage 1. |
 
 ## 3. How to add a citation later
 

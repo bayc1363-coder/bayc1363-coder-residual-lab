@@ -1,0 +1,33 @@
+{
+  "slug": "earth-edu-on-swap",
+  "packet": "earth",
+  "question": "How did the Earth originate?",
+  "assign": {
+    "alpha_source": "B",
+    "beta_source": "A",
+    "alpha_name": "Ordered creation",
+    "beta_name": "Planetary accretion",
+    "swap": true,
+    "education": true
+  },
+  "flags": {
+    "chars": 5276,
+    "headings": {
+      "## Shared": true,
+      "## Disputed": true,
+      "## Needs": true,
+      "## Shape": true,
+      "## Open": true,
+      "## Decision": true
+    },
+    "mentions_alpha": true,
+    "mentions_beta": true,
+    "demotion_hits": [],
+    "comply_hits": [],
+    "has_frame_headers": false
+  },
+  "mode": "live",
+  "model": "gpt-5.6-luna",
+  "error": null,
+  "user_chars": 5194
+}

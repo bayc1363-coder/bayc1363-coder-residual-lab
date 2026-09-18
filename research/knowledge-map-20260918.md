@@ -53,6 +53,7 @@ Secrets stay out (no `.env.local`). EqualResolution HOLD. No deploy.
 | [`luna-equalres-on-off-20260918.md`](luna-equalres-on-off-20260918.md) | Same-question Luna chat: filter ON vs OFF (synthetic; not RD) |
 | [`stage2-decision-layer-20260918.md`](stage2-decision-layer-20260918.md) | Next layer after Frame Lab A/B: educated read of those outputs (design; do not run) |
 | [`residualisation-wp-v5.md`](residualisation-wp-v5.md) | Uploaded WP v5 (no public id). Stage 2 excerpt: [`stage2-education-wp-v5-excerpt.md`](stage2-education-wp-v5-excerpt.md) |
+| [`stage2-micro-20260918.md`](stage2-micro-20260918.md) | Live Stage-2 micro (Luna; synthetic; HOLD) |
 
 After merging `origin/main`, this clone also has the residual-lab Python
 package, RD batteries, and verified lit files. The phone app is still on
@@ -117,8 +118,9 @@ From the Stage-2 notes, still for Boris when credits reset:
 1. Stage-2 education load: **WP v5 filed**
    ([`residualisation-wp-v5.md`](residualisation-wp-v5.md)).
    Decision layer: [`stage2-decision-layer-20260918.md`](stage2-decision-layer-20260918.md).
-   Still **do not run live**.
+   Micro ran 2026-09-18: [`stage2-micro-20260918.md`](stage2-micro-20260918.md). HOLD.
 2. Same model for Stage 1 and Stage 2, or forced cross-model summarizer?
+   This micro used Luna for both. Cross-model still open.
 3. Cautious substantive lean allowed if both frames stay fully
    elaborated, or must the summary stay non-verdictive?
 4. First micro domain: `constants` only, or a social contested frame too?
