@@ -68,6 +68,8 @@ Optional short residualisation-aware context (WP v5-style analytic background): 
 
 **Punchline:** today’s educated arm tests whether *knowing about* residualisation changes a cold answer. Stage 2 tests whether an educated reader can **keep** Stage-1 fairness when summarizing substance. Different causal question.
 
+**Fetch (desk lock):** educate-alone leaves retrieval/generation pointed at the bare Q, so the residualising prior still wins. Dual-slot A/B changes what is in context to attend to. A later third stream is in-scope; not a three-way fake-even split.
+
 Pointer (battery numbers live elsewhere): `out/p0-runs/synthesis-20260918/` — one-line only: ERT moves presentation markers; educate-alone is weak on idea soft-rank except thin political-tilt micros; thin ON cues are a separate arm.
 
 ---

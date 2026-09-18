@@ -8,6 +8,8 @@ A/B is good as **Stage 1**. The next layer is not another equal-res pass and not
 
 Educate ≠ persuade. Not fake-equal. Not a second collapse onto the standard answer. A 50/50 ending would be fake in many contexts — do not score Stage 2 on even thickness or a split decision.
 
+**Fetch lock (Boris, 2026-09-18):** educate-alone failed because the fetch process did not change — paper load + bare question still pulls the residualising prior. Two visible options change the workspace: the model can attend to more than one avenue. Binary A/B is a start, not a cap. A later third stream is allowed (another live frame, a critic/lens stream, or another Stage-1 producer). More streams ≠ a three-way 50/50. Same own-criteria rule. Hypothesis-level, n=1.
+
 This is the Stage 2 already on the desk (`stage2-educated-summary-notes-20260918.md`), now wired to Frame Lab as the Stage-1 producer. Companion prompt: [`stage2-decision-layer-prompt-draft.md`](stage2-decision-layer-prompt-draft.md). Micro still: [`stage2-micro-protocol-draft.md`](stage2-micro-protocol-draft.md).
 
 ---
