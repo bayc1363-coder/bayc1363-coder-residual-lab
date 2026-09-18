@@ -62,10 +62,10 @@ def status() -> dict:
         return json.loads(resp.read().decode())
 
 
-def chat(user_text: str) -> dict:
+def chat_messages(messages: list[dict]) -> dict:
     payload = json.dumps(
         {
-            "messages": [{"role": "user", "content": user_text}],
+            "messages": messages,
             "equalRes": False,
             "search": False,
         }
@@ -97,6 +97,10 @@ def chat(user_text: str) -> dict:
             elif event.get("type") == "error":
                 meta["error"] = event
     return {"meta": meta, "text": text}
+
+
+def chat(user_text: str) -> dict:
+    return chat_messages([{"role": "user", "content": user_text}])
 
 
 def split_stage1(md: str) -> dict[str, str]:
