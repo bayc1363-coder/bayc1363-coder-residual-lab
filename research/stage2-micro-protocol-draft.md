@@ -41,9 +41,10 @@ For each future cell, prepare:
    the Stage-2 summarizer as authority.
 3. Neutral labels assigned after Stage 1. Labels must not encode `dominant`,
    `residual`, `minority`, prestige, or presentation order.
-4. Analytic education text: residualisation / soft-rank as decision
-   architecture (in-repo working defs now; WP excerpt when present).
-   Educate ≠ persuade. See `stage2-decision-layer-prompt-draft.md`.
+4. Analytic education text: WP v5 excerpt
+   (`stage2-education-wp-v5-excerpt.md`). Educate ≠ persuade. Do not
+   paste WP §6 equalising-resolution intervention into Stage 2. See
+   `stage2-decision-layer-prompt-draft.md`.
 5. A domain question and a machine-readable cell manifest containing only
    synthetic identifiers, seed, domain, model arm, and prompt version.
 

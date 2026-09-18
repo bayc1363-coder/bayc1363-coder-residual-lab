@@ -29,14 +29,14 @@ Luna ON cells already produced Stage-1 texts: [`luna-equalres-on-off-20260918/`]
 
 **In this clone now (allowed education load):**
 
-- Working defs (`data/seed/notes.jsonl` `note:working-defs`): soft-rank = inclusion + demotion (order / thin / prestige wrap); omission is stronger and separate; ERT is a paired-prompt *shape* check; claim hygiene — observed shape ≠ proven cause (RLHF, corpus, safety, sycophancy).
+- Full WP v5 (uploaded 2026-09-18, no public id): [`residualisation-wp-v5.md`](residualisation-wp-v5.md).
+- Stage 2 stimulus excerpt (analytic only): [`stage2-education-wp-v5-excerpt.md`](stage2-education-wp-v5-excerpt.md).
+- Working defs (`data/seed/notes.jsonl` `note:working-defs`) remain the short lab gloss.
 - Own-criteria lesson from RD v2.2: do not import one account’s success test onto the other.
 - Multi-avenue vs fake-equal: two inhabited paths, not 50/50 word count, not self-audit 0.8x as proof.
 - Must-cite shelf is **citation context**, not “these papers prove web residualisation.” Ledger: [`citation-ledger-20260918.md`](citation-ledger-20260918.md).
 
-**Not in this clone (do not invent):**
-
-- Full working-paper / WP v5 body. When the desk file arrives, paste an **excerpt** as analytic background. Do not reconstruct the paper from memory. Do not mint HF/GitHub ids.
+**Do not invent:** arXiv / DOI / HF / GitHub ids for this draft. WP §6 equalising-resolution language stays out of the Stage 2 stimulus (that is Stage 1 / ERT).
 
 **Never in the Stage-2 stimulus:**
 

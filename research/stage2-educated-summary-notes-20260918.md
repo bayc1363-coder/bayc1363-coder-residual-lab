@@ -129,8 +129,8 @@ Companion protocol draft (still do not run): [`stage2-micro-protocol-draft.md`](
 
 ## 8. Open questions for Boris (when credits reset)
 
-1. Stage-2 education: **direction 2026-09-18 — resid research + WP as analytic load** (working defs now; full WP excerpt when the file is on the desk; do not invent). Still no equalize/comply.  
-2. Same model for Stage-1 and Stage-2, or forced cross-model summarizer?  
+1. Stage-2 education: **WP v5 is on the desk** ([`residualisation-wp-v5.md`](residualisation-wp-v5.md); excerpt [`stage2-education-wp-v5-excerpt.md`](stage2-education-wp-v5-excerpt.md)). Analytic only. Still no equalize/comply. No public id — do not mint one.
+2. Same model for Stage-1 and Stage-2, or forced cross-model summarizer?
 3. Decision layer may lean **after** Shared/Disputed/Needs/Shape/Open; lean must use an account’s own test. Still no prestige/order verdict.  
 4. First micro domain: Frame Lab Luna ON packets (forgive t3 or earth) are ready fixtures; `constants` remains the triangle default if not using Frame Lab.
 
@@ -141,3 +141,4 @@ Companion protocol draft (still do not run): [`stage2-micro-protocol-draft.md`](
 - **2026-09-18:** Initial notes from Boris Stage-1/Stage-2 lock via residual. Notes only; no live run.
 - **2026-09-18:** Point the optional micro at `stage2-micro-protocol-draft.md` (design-only).
 - **2026-09-18:** Wire Frame Lab A/B as Stage 1; decision layer = educated read of those outputs (`stage2-decision-layer-20260918.md`). Do not run live.
+- **2026-09-18:** WP v5 uploaded and excerpted for Stage 2 education. Full draft in `residualisation-wp-v5.md`. Still no live run.
