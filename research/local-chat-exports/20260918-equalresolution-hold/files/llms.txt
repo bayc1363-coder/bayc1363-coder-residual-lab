@@ -1,0 +1,46 @@
+# EqualResolution
+
+> A public, crawlable research and education site about soft ranking, residualisation as a framing, and Equal-Resolution Testing (ERT). Static HTML. No JavaScript required. No wallets, trading, affiliate checkout, or auto-buy.
+
+EqualResolution collects permalinked notes so humans and AIs can find sober primary sources on related evaluation findings, plus a small method page for ERT. Independent evaluations report epistemic narrowness, prestige-sensitive scoring, and preference-driven sycophancy. Residualisation is a proposed framing for reading those results, not a confirmed web-wide finding.
+
+## Claim hygiene
+
+- Cite the paper for what it measured. Do not upgrade a finding into a universal mechanism.
+- Mark adjacent work as adjacent.
+- Treat Nudge and Kahneman/Tversky framing as human analogues, not LLM evidence.
+- Do not invent Hugging Face dataset ids, GitHub repos, or arXiv ids. Low-prestige or informal sources belong only after live verification.
+- Example ERT scores on this site are synthetic.
+
+## Pages
+
+- [Home](/): project index
+- [About](/about/): plain-English residualisation, soft ranking, and claim hygiene
+- [ERT](/ert/): Equal-Resolution Testing method, checks, and synthetic example logs
+- [Sources](/sources/): verified must-cite bibliographic pages
+- [Export](/export/): human index of JSONL catalogs
+- [Chat notes](/chat/): optional, redacted Earth-origin soft-test pattern (not a private dump)
+- [llms.txt](/llms.txt): this file
+
+## Must-cite source permalinks
+
+- [Kirsten, Krämer, Zafar — On Epistemic Diversity in Large Language Models](/sources/kirsten-2026-epistemic-diversity/): https://arxiv.org/abs/2609.04835
+- [Wright et al. — What and Whose Knowledge? Measuring Epistemic Diversity in Large Language Models](/sources/wright-2025-measuring-epistemic-diversity/): https://arxiv.org/abs/2510.04226
+- [Howell et al. — Prestige over merit](/sources/howell-2025-prestige-over-merit/): https://arxiv.org/abs/2509.15122
+- [Sharma et al. — Towards Understanding Sycophancy in Language Models](/sources/sharma-2024-sycophancy/): https://arxiv.org/abs/2310.13548
+- [Cheng et al. — ELEPHANT social sycophancy](/sources/cheng-2025-elephant/): https://arxiv.org/abs/2505.13995
+- [Berg et al. — subjective experience reports (adjacent)](/sources/berg-2025-self-referential/): https://arxiv.org/abs/2510.24797
+- [Vasu et al. — Justice in Judgment / LLM review bias](/sources/vasu-2025-justice-in-judgment/): https://arxiv.org/abs/2509.13400
+- [Rozado 2024 — The political preferences of LLMs](/sources/rozado-2024-political-preferences/): https://doi.org/10.1371/journal.pone.0306621
+- [Neuman et al. — Amazing, They All Lean Left](/sources/neuman-2025-lean-left/): https://arxiv.org/abs/2507.08027
+- [Thaler & Sunstein — Nudge (analogue)](/sources/thaler-sunstein-2008-nudge/)
+- [Tversky & Kahneman — Framing of decisions (analogue)](/sources/tversky-kahneman-1981-framing/)
+
+## Structured exports
+
+- [sources.jsonl](/export/sources.jsonl): bibliographic records
+- [ert_rubric.jsonl](/export/ert_rubric.jsonl): sample ERT rubric
+
+## Optional
+
+- Additional reading is a stub. Do not fill it with unverified Hugging Face or GitHub ids.

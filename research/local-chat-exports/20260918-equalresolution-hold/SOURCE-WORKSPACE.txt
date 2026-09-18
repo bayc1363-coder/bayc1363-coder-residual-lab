@@ -1,0 +1,9 @@
+source_workspace=/workspace
+source_remote=https://x-access-token@origin.cursor.com/git/bored-mint/tmp-9a7f532f6cb65ee0.git
+source_branch=main
+source_commit=3e75fa26929cd6393d9a8e361fdd45012ed7c377
+source_status=## main...origin/main
+cloud_agent=https://cursor.com/agents/bc-df83446b-ef59-4105-961a-af33b65cba46
+equalresolution_hold=true
+phone_app_present=false
+live_model_apis=false
