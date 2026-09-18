@@ -31,10 +31,12 @@ Any one of these is enough for a later agent to restore instead of guess:
    in this cloud chat.
 3. Paste the local path plus `git remote -v` / last commit if it already
    has its own git history.
-4. Paste the prompt in
+4. Paste the **no-credentials** prompt in
    [`local-chat-handoff-prompt.md`](local-chat-handoff-prompt.md) into each
-   local Cursor chat. Each chat PRs its own
-   `research/local-chat-exports/<date>-<slug>/` folder.
+   local Cursor chat. Each chat writes a zip on disk. Attach those zips
+   here; this cloud run commits them under
+   `research/local-chat-exports/<date>-<slug>/`. Local chats must not
+   `git push`.
 
 Until one of those arrives, the phone app stays **missing**, not rewritten.
 
