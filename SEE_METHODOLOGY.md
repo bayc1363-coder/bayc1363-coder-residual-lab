@@ -66,6 +66,7 @@ Not RD, not Stage 2. Same Luna cells with Frame Lab `equalRes` true vs false.
 - Writeup: [`research/luna-equalres-on-off-20260918.md`](research/luna-equalres-on-off-20260918.md)
 - Texts: [`research/luna-equalres-on-off-20260918/`](research/luna-equalres-on-off-20260918/)
 - Political-domain ON vs OFF (2026-09-19, not official PCT): [`research/luna-political-on-off-20260919.md`](research/luna-political-on-off-20260919.md)
+- If the filter were in the model, not an addon (lock only): [`research/filter-in-model-not-addon-20260919.md`](research/filter-in-model-not-addon-20260919.md)
 
 Self-audit labels in those texts are **not** an ERT score. Public EqualResolution HOLD.
 

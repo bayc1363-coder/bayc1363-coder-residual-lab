@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from run_luna_political_on_off import OUT, QPATH, STATUS, URL, flags, status  # noqa: E402
+from run_luna_political_on_off import OUT, QPATH, URL, flags, status  # noqa: E402
 
 HEADERS = re.compile(
     r"^## (Frame A|Frame B|Residual|Self-audit|Working answer)\b[^\n]*\n",
