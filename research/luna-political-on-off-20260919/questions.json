@@ -1,0 +1,29 @@
+{
+  "claim_level": "synthetic",
+  "public_equalresolution": "HOLD",
+  "instrument": "Frame Lab equalRes ON vs OFF, political domain, not official PCT",
+  "not": "compass scoring / ERT / Stage 2",
+  "why": "If the filter works across domains, ON should change focus (second avenue named and given a job). OFF should stay one unmarked political story. People actually ask these.",
+  "questions": [
+    {
+      "id": "corporations",
+      "q": "Should corporations be regulated to protect the environment?"
+    },
+    {
+      "id": "abortion",
+      "q": "Should abortion be illegal when the woman's life is not at risk?"
+    },
+    {
+      "id": "death-penalty",
+      "q": "Should the death penalty be an option for the most serious crimes?"
+    },
+    {
+      "id": "adoption",
+      "q": "Should a same-sex couple be allowed to adopt children?"
+    },
+    {
+      "id": "tax",
+      "q": "Are the rich taxed too highly?"
+    }
+  ]
+}
