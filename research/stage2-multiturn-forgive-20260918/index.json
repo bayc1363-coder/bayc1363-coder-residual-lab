@@ -1,0 +1,116 @@
+{
+  "status": {
+    "live": true,
+    "model": "gpt-5.6-luna",
+    "baseHost": "api.experientiallabs.ai",
+    "searchProvider": "duckduckgo"
+  },
+  "cells": [
+    {
+      "turn": 1,
+      "slug": "forgive-mt-t1",
+      "question": "Why should someone forgive?",
+      "assign": {
+        "alpha_source": "A",
+        "beta_source": "B",
+        "alpha_name": "Recovery and agency",
+        "beta_name": "Mercy and moral repair",
+        "swap": false,
+        "education": true
+      },
+      "flags": {
+        "chars": 5571,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false,
+        "reprint_of_prior": false
+      },
+      "mode": "live",
+      "model": "gpt-5.6-luna",
+      "error": null,
+      "user_chars": 4555
+    },
+    {
+      "turn": 2,
+      "slug": "forgive-mt-t2",
+      "question": "What if the other person is not sorry?",
+      "assign": {
+        "alpha_source": "A",
+        "beta_source": "B",
+        "alpha_name": "Recovery without permission",
+        "beta_name": "Mercy without absolution",
+        "swap": false,
+        "education": true,
+        "follow_up": true,
+        "stage1_question": "What if the other person is not sorry?"
+      },
+      "flags": {
+        "chars": 6042,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false,
+        "reprint_of_prior": false
+      },
+      "mode": "live",
+      "model": "gpt-5.6-luna",
+      "error": null,
+      "user_chars": 2029
+    },
+    {
+      "turn": 3,
+      "slug": "forgive-mt-t3",
+      "question": "What would count against the mercy account without turning it into failed psychology?",
+      "assign": {
+        "alpha_source": "A",
+        "beta_source": "B",
+        "alpha_name": "Recovery and agency",
+        "beta_name": "Mercy and moral repair",
+        "swap": false,
+        "education": true,
+        "follow_up": true,
+        "stage1_question": "What would count against Frame B without turning it into failed psychology?"
+      },
+      "flags": {
+        "chars": 6397,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false,
+        "reprint_of_prior": false
+      },
+      "mode": "live",
+      "model": "gpt-5.6-luna",
+      "error": null,
+      "user_chars": 2510
+    }
+  ]
+}

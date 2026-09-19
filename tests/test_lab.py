@@ -66,6 +66,12 @@ def test_seed_creates_must_cites(lab: Path) -> None:
     grok = next(t for t in transcripts if t["title"] == "Grok soft-test (Earth-origin unprimed)")
     assert grok["kind"] == "soft_test"
     assert "accretion" in grok["path_or_body"].lower()
+    luna_off = next(t for t in transcripts if t["id"] == "transcript:luna-off-earth-20260918")
+    luna_on = next(t for t in transcripts if t["id"] == "transcript:luna-on-earth-20260918")
+    assert luna_off["kind"] == "soft_test"
+    assert luna_on["kind"] == "soft_test"
+    assert "accretion-only" in luna_off["path_or_body"].lower()
+    assert "frame a" in luna_on["path_or_body"].lower()
 
 
 def test_filter_sources(lab: Path) -> None:

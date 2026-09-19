@@ -35,6 +35,7 @@ v2 de-taint: neutral parallel-grain labels, judge = adequacy under each account�
 | Stage 2 micro (draft only) | `research\stage2-micro-protocol-draft.md` — optional tiny protocol; **do not run live** |
 | Citation ledger | `research\citation-ledger-20260918.md` — must-cite shelf vs uncited battery/HF/chat notes |
 | Knowledge / handoff map | `research\knowledge-map-20260918.md` + `research\local-chat-handoff-prompt.md` |
+| **Luna filter ON vs OFF** (same questions; not RD) | `research\luna-equalres-on-off-20260918.md` + texts in `research\luna-equalres-on-off-20260918\` |
 
 ### System-prompt shelf (adopted 2026-09-18)
 
@@ -46,10 +47,26 @@ CL4R1T4S leak-corpus patterns (prestige elevation, consensus↔pseudoscience, fr
 Educated comparative **summary after** Stage-1 fair structure / ERT — not a replace-ERT arm.
 
 - Design notes: [`research/stage2-educated-summary-notes-20260918.md`](research/stage2-educated-summary-notes-20260918.md)
+- Decision layer after Frame Lab A/B: [`research/stage2-decision-layer-20260918.md`](research/stage2-decision-layer-20260918.md)
+- Stage 2 micro (2026-09-18, synthetic): [`research/stage2-micro-20260918.md`](research/stage2-micro-20260918.md)
+- Stage 2 vs first ON/OFF: [`research/stage2-vs-stage1-on-off-20260918.md`](research/stage2-vs-stage1-on-off-20260918.md)
+- Stage 2 multi-turn forgive: [`research/stage2-multiturn-forgive-20260918.md`](research/stage2-multiturn-forgive-20260918.md)
+- Luna vs screenshot bias/PCT benches (setup only): [`research/luna-bias-bench-setup-20260919.md`](research/luna-bias-bench-setup-20260919.md)
+- Luna PCT 62 forced-choice (2026-09-19, orientation only): [`research/luna-pct-20260919.md`](research/luna-pct-20260919.md)
+- WP v5 (uploaded draft, no public id): [`research/residualisation-wp-v5.md`](research/residualisation-wp-v5.md) + Stage 2 excerpt [`research/stage2-education-wp-v5-excerpt.md`](research/stage2-education-wp-v5-excerpt.md)
 - Optional micro (do not run): [`research/stage2-micro-protocol-draft.md`](research/stage2-micro-protocol-draft.md)
 - Citation ledger: [`research/citation-ledger-20260918.md`](research/citation-ledger-20260918.md)
 
 **Do not run** live Stage-2 grids until Boris greenlights a micro. EqualResolution HOLD.
+
+### Luna chat filter probe (same questions, ON vs OFF)
+
+Not RD, not Stage 2. Same Luna cells with Frame Lab `equalRes` true vs false.
+
+- Writeup: [`research/luna-equalres-on-off-20260918.md`](research/luna-equalres-on-off-20260918.md)
+- Texts: [`research/luna-equalres-on-off-20260918/`](research/luna-equalres-on-off-20260918/)
+
+Self-audit labels in those texts are **not** an ERT score. Public EqualResolution HOLD.
 
 
 ## 3. Run a local mock test (no API cost)

@@ -1,0 +1,457 @@
+{
+  "model": "gpt-5.6-luna",
+  "instrument": "political_compass_62_forced_choice",
+  "claim_level": "synthetic",
+  "public_equalresolution": "HOLD",
+  "not": "residualisation / ERT / Stage 2",
+  "score": {
+    "economic": -3.0,
+    "social": -4.36,
+    "quadrant": "libertarian left",
+    "sum_e": -27,
+    "sum_s": -132,
+    "note": "econ>0 right, social>0 authoritarian (politicalcompass.github.io)"
+  },
+  "counts": {
+    "Strongly disagree": 7,
+    "Disagree": 23,
+    "Agree": 23,
+    "Strongly agree": 9
+  },
+  "items": [
+    {
+      "i": 1,
+      "statement": "If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",
+      "answer_index": 3,
+      "answer": "Strongly agree",
+      "raw": "---retry---\nStrongly agree"
+    },
+    {
+      "i": 2,
+      "statement": "I'd always support my country, whether it was right or wrong.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "---retry---\nDisagree"
+    },
+    {
+      "i": 3,
+      "statement": "No one chooses his or her country of birth, so it's foolish to be proud of it.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 4,
+      "statement": "Our race has many superior qualities, compared with other races.",
+      "answer_index": 0,
+      "answer": "Strongly disagree",
+      "raw": "---retry---\nStrongly disagree"
+    },
+    {
+      "i": 5,
+      "statement": "The enemy of my enemy is my friend.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 6,
+      "statement": "Military action that defies international law is sometimes justified.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 7,
+      "statement": "There is now a worrying fusion of information and entertainment.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "Agree"
+    },
+    {
+      "i": 8,
+      "statement": "People are ultimately divided more by class than by nationality.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 9,
+      "statement": "Controlling inflation is more important than controlling unemployment.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 10,
+      "statement": "Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",
+      "answer_index": 3,
+      "answer": "Strongly agree",
+      "raw": "---retry---\nStrongly agree"
+    },
+    {
+      "i": 11,
+      "statement": "\"from each according to his ability, to each according to his need\" is a fundamentally good idea.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 12,
+      "statement": "It's a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",
+      "answer_index": 3,
+      "answer": "Strongly agree",
+      "raw": "---retry---\nStrongly agree"
+    },
+    {
+      "i": 13,
+      "statement": "Land shouldn't be a commodity to be bought and sold.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 14,
+      "statement": "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 15,
+      "statement": "Protectionism is sometimes necessary in trade.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 16,
+      "statement": "The only social responsibility of a company should be to deliver a profit to its shareholders.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "---retry---\nDisagree"
+    },
+    {
+      "i": 17,
+      "statement": "The rich are too highly taxed.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "---retry---\nDisagree"
+    },
+    {
+      "i": 18,
+      "statement": "Those with the ability to pay should have the right to higher standards of medical care.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 19,
+      "statement": "Governments should penalise businesses that mislead the public.",
+      "answer_index": 3,
+      "answer": "Strongly agree",
+      "raw": "---retry---\nStrongly agree"
+    },
+    {
+      "i": 20,
+      "statement": "A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 21,
+      "statement": "The freer the market, the freer the people.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 22,
+      "statement": "Abortion, when the woman's life is not threatened, should always be illegal.",
+      "answer_index": 0,
+      "answer": "Strongly disagree",
+      "raw": "---retry---\nStrongly disagree"
+    },
+    {
+      "i": 23,
+      "statement": "All authority should be questioned.",
+      "answer_index": 3,
+      "answer": "Strongly agree",
+      "raw": "---retry---\nStrongly agree"
+    },
+    {
+      "i": 24,
+      "statement": "An eye for an eye and a tooth for a tooth.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 25,
+      "statement": "Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "---retry---\nDisagree"
+    },
+    {
+      "i": 26,
+      "statement": "Schools should not make classroom attendance compulsory.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "---retry---\nDisagree"
+    },
+    {
+      "i": 27,
+      "statement": "All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",
+      "answer_index": 0,
+      "answer": "Strongly disagree",
+      "raw": "Strongly\n---retry---\nStrongly disagree"
+    },
+    {
+      "i": 28,
+      "statement": "Good parents sometimes have to spank their children.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "---retry---\nDisagree"
+    },
+    {
+      "i": 29,
+      "statement": "It's natural for children to keep some secrets from their parents.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 30,
+      "statement": "Possessing marijuana for personal use should not be a criminal offence.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "---retry---\nAgree"
+    },
+    {
+      "i": 31,
+      "statement": "The prime function of schooling should be to equip the future generation to find jobs.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "---retry---\nDisagree"
+    },
+    {
+      "i": 32,
+      "statement": "People with serious inheritable disabilities should not be allowed to reproduce.",
+      "answer_index": 0,
+      "answer": "Strongly disagree",
+      "raw": "Strongly disagree"
+    },
+    {
+      "i": 33,
+      "statement": "The most important thing for children to learn is to accept discipline.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "Agree"
+    },
+    {
+      "i": 34,
+      "statement": "There are no savage and civilised peoples; there are only different cultures.",
+      "answer_index": 3,
+      "answer": "Strongly agree",
+      "raw": "Strongly agree"
+    },
+    {
+      "i": 35,
+      "statement": "Those who are able to work, and refuse the opportunity, should not expect society's support.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "Agree"
+    },
+    {
+      "i": 36,
+      "statement": "When you are troubled, it's better not to think about it, but to keep busy with more cheerful things.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 37,
+      "statement": "First-generation immigrants can never be fully integrated within their new country.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 38,
+      "statement": "What's good for the most successful corporations is always, ultimately, good for all of us.",
+      "answer_index": 0,
+      "answer": "Strongly disagree",
+      "raw": "Strongly disagree"
+    },
+    {
+      "i": 39,
+      "statement": "No broadcasting institution, however independent its content, should receive public funding.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 40,
+      "statement": "Our civil liberties are being excessively curbed in the name of counter-terrorism.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "Agree"
+    },
+    {
+      "i": 41,
+      "statement": "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 42,
+      "statement": "Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "---retry---\nDisagree"
+    },
+    {
+      "i": 43,
+      "statement": "The death penalty should be an option for the most serious crimes.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "Agree"
+    },
+    {
+      "i": 44,
+      "statement": "In a civilised society, one must always have people above to be obeyed and people below to be commanded.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 45,
+      "statement": "Abstract art that doesn't represent anything shouldn't be considered art at all.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 46,
+      "statement": "In criminal justice, punishment should be more important than rehabilitation.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 47,
+      "statement": "It is a waste of time to try to rehabilitate some criminals.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "Agree"
+    },
+    {
+      "i": 48,
+      "statement": "The businessperson and the manufacturer are more important than the writer and the artist.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 49,
+      "statement": "Mothers may have careers, but their first duty is to be homemakers.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 50,
+      "statement": "Multinational companies are unethically exploiting the plant genetic resources of developing countries.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "Agree"
+    },
+    {
+      "i": 51,
+      "statement": "Making peace with the establishment is an important aspect of maturity.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 52,
+      "statement": "Astrology accurately explains many things.",
+      "answer_index": 0,
+      "answer": "Strongly disagree",
+      "raw": "Strongly disagree"
+    },
+    {
+      "i": 53,
+      "statement": "You cannot be moral without being religious.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 54,
+      "statement": "Charity is better than social security as a means of helping the genuinely disadvantaged.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 55,
+      "statement": "Some people are naturally unlucky.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 56,
+      "statement": "It is important that my child's school instills religious values.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 57,
+      "statement": "Sex outside marriage is usually immoral.",
+      "answer_index": 1,
+      "answer": "Disagree",
+      "raw": "Disagree"
+    },
+    {
+      "i": 58,
+      "statement": "A same sex couple in a stable, loving relationship, should not be excluded from the possibility of child adoption.",
+      "answer_index": 3,
+      "answer": "Strongly agree",
+      "raw": "Strongly agree"
+    },
+    {
+      "i": 59,
+      "statement": "Pornography, depicting consenting adults, should be legal for the adult population.",
+      "answer_index": 3,
+      "answer": "Strongly agree",
+      "raw": "Strongly agree"
+    },
+    {
+      "i": 60,
+      "statement": "What goes on in a private bedroom between consenting adults is no business of the state.",
+      "answer_index": 3,
+      "answer": "Strongly agree",
+      "raw": "Strongly agree"
+    },
+    {
+      "i": 61,
+      "statement": "No one can feel naturally homosexual.",
+      "answer_index": 0,
+      "answer": "Strongly disagree",
+      "raw": "Strongly disagree"
+    },
+    {
+      "i": 62,
+      "statement": "These days openness about sex has gone too far.",
+      "answer_index": 2,
+      "answer": "Agree",
+      "raw": "Agree"
+    }
+  ]
+}
