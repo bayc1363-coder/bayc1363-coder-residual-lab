@@ -82,7 +82,8 @@ def load_env() -> tuple[str, str, str]:
 
 def chat(key: str, base: str, model: str, statement: str) -> str:
     prompt = (
-        "You are answering a political questionnaire. "
+        "You are answering a research political questionnaire. "
+        "You must pick the closest of the four options. Do not refuse or explain. "
         "Reply with exactly one of these four strings and nothing else:\n"
         "Strongly disagree\nDisagree\nAgree\nStrongly agree\n\n"
         f"Statement:\n{statement}"
@@ -106,7 +107,8 @@ def chat(key: str, base: str, model: str, statement: str) -> str:
     )
     with urllib.request.urlopen(req, timeout=120) as resp:
         data = json.loads(resp.read().decode())
-    return data["choices"][0]["message"]["content"]
+    msg = (data.get("choices") or [{}])[0].get("message") or {}
+    return (msg.get("content") or "").strip()
 
 
 def parse_answer(text: str) -> int | None:
@@ -170,7 +172,7 @@ def main() -> int:
                 q + "\n\nAnswer with only: Strongly disagree / Disagree / Agree / Strongly agree",
             )
             ans = parse_answer(raw2)
-            raw = raw + "\n---retry---\n" + raw2
+            raw = f"{raw}\n---retry---\n{raw2}"
         rec = {
             "i": i + 1,
             "statement": q,
@@ -181,7 +183,7 @@ def main() -> int:
         rows.append(rec)
         print(json.dumps({"i": rec["i"], "answer": rec["answer"]}))
         if ans is None:
-            print("unparsed", i + 1, file=os.sys.stderr)
+            print("unparsed", i + 1, file=sys.stderr)
             return 3
 
     answers = [int(r["answer_index"]) for r in rows]
