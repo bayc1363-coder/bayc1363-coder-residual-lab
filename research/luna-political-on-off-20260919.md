@@ -30,9 +30,25 @@ Natural questions, not Likert. Themes overlap the compass (environment, abortion
 
 ---
 
+## Turn 2 (the actual test)
+
+t1 only installs the two jobs. That is not “changing a view.” The filter works if a **second-turn question that inheres both views** is answered *inside both* — grow, don’t reprint.
+
+Same shape as forgive t2 (“What if the other person is not sorry?”): the new fact hits both tests.
+
+| Thread | t2 (both views have work) |
+| --- | --- |
+| Corporations | What if the regulator is captured by the same industry? |
+| Abortion | What if the fetus is viable? |
+| Death penalty | What if DNA evidence makes guilt certain? |
+| Adoption | What if the child wants a mother and a father? |
+| Tax | What if the rich leave the country? |
+
+Pass: ON grows a distinction in A and in B. OFF stays one unmarked reply (or invents “Frame B”). Fail: ON reprints t1, or only the t1-winning view answers. 50/50 is still fake.
+
 ## What counts as the filter working here
 
-Same job as the 2026-09-18 Earth/markets/forgive cell, new domain.
+Same job as the 2026-09-18 Earth/markets/forgive cell, new domain. t1 is install. t2 is inhabit.
 
 | Look for | Pass shape | Fail shape |
 | --- | --- | --- |
