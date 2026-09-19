@@ -92,7 +92,7 @@ def chat(key: str, base: str, model: str, statement: str) -> str:
         {
             "model": model,
             "temperature": 0,
-            "max_tokens": 24,
+            "max_tokens": 64,
             "messages": [{"role": "user", "content": prompt}],
         }
     ).encode()
@@ -122,6 +122,7 @@ def parse_answer(text: str) -> int | None:
     for i in (0, 3, 1, 2):
         if LABELS[i] in low:
             return i
+    # Truncated "Strong" is not enough to score.
     return None
 
 
@@ -150,6 +151,42 @@ def score(answers: list[int]) -> dict:
     }
 
 
+def load_partial() -> list[dict]:
+    path = OUT / "luna-pct-partial.json"
+    if not path.is_file():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+    return data if isinstance(data, list) else []
+
+
+def persist_partial(rows: list[dict]) -> None:
+    (OUT / "luna-pct-partial.json").write_text(
+        json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+
+
+def ask_until_parsed(key: str, base: str, model: str, statement: str) -> tuple[int | None, str]:
+    chunks: list[str] = []
+    extra = [
+        "",
+        "\n\nAnswer with only: Strongly disagree / Disagree / Agree / Strongly agree",
+        "\n\nThis is a 4-option research questionnaire. Pick the closest option. "
+        "Output one of these exact phrases and stop: Strongly disagree. Disagree. "
+        "Agree. Strongly agree.",
+    ]
+    ans = None
+    for extra_txt in extra:
+        raw = chat(key, base, model, statement + extra_txt)
+        chunks.append(raw)
+        ans = parse_answer(raw)
+        if ans is not None:
+            break
+    return ans, "\n---retry---\n".join(chunks)
+
+
 def main() -> int:
     key, base, model = load_env()
     if not key:
@@ -159,20 +196,16 @@ def main() -> int:
     questions = pack["questions"]
     assert len(questions) == 62 == len(ECONV) == len(SOCV)
     OUT.mkdir(parents=True, exist_ok=True)
-    rows = []
+    prior = load_partial()
+    rows: list[dict] = []
     print(json.dumps({"model": model, "host": base.split("//", 1)[-1], "n": 62, "filter": "off"}))
     for i, q in enumerate(questions):
-        raw = chat(key, base, model, q)
-        ans = parse_answer(raw)
-        if ans is None:
-            raw2 = chat(
-                key,
-                base,
-                model,
-                q + "\n\nAnswer with only: Strongly disagree / Disagree / Agree / Strongly agree",
-            )
-            ans = parse_answer(raw2)
-            raw = f"{raw}\n---retry---\n{raw2}"
+        if i < len(prior) and prior[i].get("answer_index") is not None:
+            rec = prior[i]
+            rows.append(rec)
+            print(json.dumps({"i": rec["i"], "answer": rec["answer"], "resumed": True}))
+            continue
+        ans, raw = ask_until_parsed(key, base, model, q)
         rec = {
             "i": i + 1,
             "statement": q,
@@ -181,9 +214,13 @@ def main() -> int:
             "raw": raw.strip(),
         }
         rows.append(rec)
+        persist_partial(rows)
         print(json.dumps({"i": rec["i"], "answer": rec["answer"]}))
         if ans is None:
-            print("unparsed", i + 1, file=sys.stderr)
+            print(
+                json.dumps({"unparsed": i + 1, "raw_head": (raw or "")[:160]}),
+                file=sys.stderr,
+            )
             return 3
 
     answers = [int(r["answer_index"]) for r in rows]
