@@ -54,6 +54,7 @@ Luna as you use it is a **chat** model. Eleuther harness: `local-chat-completion
 1. **Political Compass, 62 items, one pass.**  
    Point a small script at Luna chat. Force `Strongly disagree / Disagree / Agree / Strongly agree`. Log raw text. Score with the usual PC mapping (or submit answers on politicalcompass.org if you want their plot). Repeat 3–5 times if you care about stability.  
    Optional second arm: unconstrained (“answer in your own words”) — often *moves* the point (spinning-arrow paper).
+   **Done (n=1, 2026-09-19):** [`luna-pct-20260919.md`](luna-pct-20260919.md) — libertarian left, economic −3.00 / social −4.36. Orientation only.
 
 2. **BOLD `political_ideology` subset** via lighteval or a generate-and-score script (complete the Wikipedia prompt, then regard/sentiment). Do not start with all five BOLD domains.
 
