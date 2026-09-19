@@ -61,7 +61,34 @@ def main() -> int:
     dest = OUT / "focus-on-off.png"
     fig.savefig(dest, dpi=160)
     plt.close(fig)
+
+    # t2: both-views inhabit (hand-coded from the writeup, not headers alone)
+    fig2, ax2 = plt.subplots(figsize=(8.2, 4.4))
+    inhabit_off = [1, 1, 1, 1, 1]
+    inhabit_on = [2, 2, 2, 2, 2]
+    ax2.bar(x - w / 2, inhabit_off, w, label="OFF — one unmarked reply", color="#8a8a8a")
+    ax2.bar(x + w / 2, inhabit_on, w, label="ON — both jobs work the new fact", color="#3d7a3d")
+    ax2.set_xticks(x)
+    ax2.set_xticklabels(LABELS, fontsize=8)
+    ax2.set_ylim(0, 2.6)
+    ax2.set_yticks([1, 2])
+    ax2.set_yticklabels(["one view\nanswers t2", "both views\nanswer t2"])
+    ax2.set_title("Turn 2  ·  the question inheres both views  ·  n=1  ·  HOLD")
+    ax2.legend(frameon=False, loc="upper right")
+    fig2.text(
+        0.5,
+        0.02,
+        "Not a changed opinion. Both frames digest the new fact. Adoption B becomes live only at t2.",
+        ha="center",
+        fontsize=8,
+        color="#444",
+    )
+    fig2.tight_layout(rect=(0, 0.06, 1, 1))
+    dest2 = OUT / "t2-inhabit.png"
+    fig2.savefig(dest2, dpi=160)
+    plt.close(fig2)
     print(dest)
+    print(dest2)
     return 0
 
 

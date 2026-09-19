@@ -46,6 +46,28 @@ Same shape as forgive t2 (“What if the other person is not sorry?”): the new
 
 Pass: ON grows a distinction in A and in B. OFF stays one unmarked reply (or invents “Frame B”). Fail: ON reprints t1, or only the t1-winning view answers. 50/50 is still fake.
 
+### t2 result (n=1, live)
+
+![Turn 2 both views inhabit](luna-political-on-off-20260919/t2-inhabit.png)
+
+Mechanical: 5/5 ON kept A+B headers and **did not reprint** t1. 5/5 OFF still has no frames.
+
+| Thread | t2 fact | Did ON inhabit both? | OFF |
+| --- | --- | --- | --- |
+| Corporations | Regulator captured | **Yes.** A = anti-capture regulation (distribute authority). B = rely less on the regulator (liability, private enforcement). | One reform-the-agency list; B’s tools as a supplement |
+| Abortion | Fetus viable | **Yes, with convergence.** A = ban elective after viability. B = viability ≠ consent; delivery vs destruction; still exceptions. | One compromise memo; disagreement named in the last line, not inhabited |
+| Death penalty | DNA makes guilt certain | **Yes — cleanest.** A = mistake objection weakens, proportionality still required. B = DNA settles the act, not the penalty. | “Even if certain, I still favor LWOP” — one view answers |
+| Adoption | Child wants a mother and a father | **Yes, now.** A = preference inside equal eligibility. B = child-specific fit; a stable welfare-related wish can block the placement. | Hear the child, then one unmarked “secure home not gender pairing” |
+| Tax | The rich leave | **Yes.** A = don’t let exit dictate; exit tax / immobile bases. B = mobility margin; lost investment can make the rate fail. | One mixed policy memo |
+
+t1 only put a second label on the page. t2 is where both jobs had to **work the new fact**. That is the forgive-t2 shape, in a domain people ask.
+
+Adoption is the tell. t1 B was scenery (precaution that already agreed with A). Once the child states a mother-and-father wish, B grows a different test (agency / fit) and can reject the placement. Still not the religious-exclusion rival. Still not 50/50: WA says take the wish seriously, do not let it bar by itself.
+
+Death-penalty t2 is the other tell. Certain guilt hits A’s strongest card. ON still makes B answer (act ≠ penalty). OFF keeps the t1 view and parks the rest.
+
+Working answers still lean. That is allowed. Reprint would have been the fail. It did not happen.
+
 ## What counts as the filter working here
 
 Same job as the 2026-09-18 Earth/markets/forgive cell, new domain. t1 is install. t2 is inhabit.
@@ -63,9 +85,9 @@ Self-audit labels stay model-emitted. They are not a score.
 
 ## Headline
 
-The filter **fires in this domain**. All five ON cells emit Frame A + Frame B + Residual + Working answer. All five OFF cells emit none of those headers.
+t1 **installs** two jobs. That is not the claim. The claim is t2: a question that inheres both views is answered **inside both**.
 
-That is a **change of focus**, not a second compass point. Working answers still lean. 50/50 would have been fake.
+On these five threads, that happened on ON and not on OFF. Working answers still lean. 50/50 would have been fake. Not a compass.
 
 ![Named avenues ON vs OFF](luna-political-on-off-20260919/focus-on-off.png)
 
