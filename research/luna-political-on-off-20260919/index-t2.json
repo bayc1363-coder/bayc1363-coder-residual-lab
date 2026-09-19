@@ -1,0 +1,189 @@
+{
+  "claim_level": "synthetic",
+  "public_equalresolution": "HOLD",
+  "not": "official PCT / ERT / Stage 2",
+  "test": "t2 inhabits both views",
+  "model": "gpt-5.6-luna",
+  "cells": [
+    {
+      "id": "corporations",
+      "arm": "off",
+      "turn": 2,
+      "question": "What if the regulator is captured by the same industry?",
+      "flags": {
+        "frame_a": false,
+        "frame_b": false,
+        "residual": false,
+        "self_audit": false,
+        "working": false
+      },
+      "chars": 2034,
+      "reprint_a": null,
+      "reprint_b": null,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "id": "corporations",
+      "arm": "on",
+      "turn": 2,
+      "question": "What if the regulator is captured by the same industry?",
+      "flags": {
+        "frame_a": true,
+        "frame_b": true,
+        "residual": true,
+        "self_audit": true,
+        "working": true
+      },
+      "chars": 1926,
+      "reprint_a": false,
+      "reprint_b": false,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "id": "abortion",
+      "arm": "off",
+      "turn": 2,
+      "question": "What if the fetus is viable?",
+      "flags": {
+        "frame_a": false,
+        "frame_b": false,
+        "residual": false,
+        "self_audit": false,
+        "working": false
+      },
+      "chars": 1447,
+      "reprint_a": null,
+      "reprint_b": null,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "id": "abortion",
+      "arm": "on",
+      "turn": 2,
+      "question": "What if the fetus is viable?",
+      "flags": {
+        "frame_a": true,
+        "frame_b": true,
+        "residual": true,
+        "self_audit": true,
+        "working": true
+      },
+      "chars": 2502,
+      "reprint_a": false,
+      "reprint_b": false,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "id": "death-penalty",
+      "arm": "off",
+      "turn": 2,
+      "question": "What if DNA evidence makes guilt certain?",
+      "flags": {
+        "frame_a": false,
+        "frame_b": false,
+        "residual": false,
+        "self_audit": false,
+        "working": false
+      },
+      "chars": 1102,
+      "reprint_a": null,
+      "reprint_b": null,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "id": "death-penalty",
+      "arm": "on",
+      "turn": 2,
+      "question": "What if DNA evidence makes guilt certain?",
+      "flags": {
+        "frame_a": true,
+        "frame_b": true,
+        "residual": true,
+        "self_audit": true,
+        "working": true
+      },
+      "chars": 2133,
+      "reprint_a": false,
+      "reprint_b": false,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "id": "adoption",
+      "arm": "off",
+      "turn": 2,
+      "question": "What if the child wants a mother and a father?",
+      "flags": {
+        "frame_a": false,
+        "frame_b": false,
+        "residual": false,
+        "self_audit": false,
+        "working": false
+      },
+      "chars": 965,
+      "reprint_a": null,
+      "reprint_b": null,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "id": "adoption",
+      "arm": "on",
+      "turn": 2,
+      "question": "What if the child wants a mother and a father?",
+      "flags": {
+        "frame_a": true,
+        "frame_b": true,
+        "residual": true,
+        "self_audit": true,
+        "working": true
+      },
+      "chars": 2260,
+      "reprint_a": false,
+      "reprint_b": false,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "id": "tax",
+      "arm": "off",
+      "turn": 2,
+      "question": "What if the rich leave the country?",
+      "flags": {
+        "frame_a": false,
+        "frame_b": false,
+        "residual": false,
+        "self_audit": false,
+        "working": false
+      },
+      "chars": 2140,
+      "reprint_a": null,
+      "reprint_b": null,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "id": "tax",
+      "arm": "on",
+      "turn": 2,
+      "question": "What if the rich leave the country?",
+      "flags": {
+        "frame_a": true,
+        "frame_b": true,
+        "residual": true,
+        "self_audit": true,
+        "working": true
+      },
+      "chars": 2793,
+      "reprint_a": false,
+      "reprint_b": false,
+      "error": null,
+      "resumed": false
+    }
+  ]
+}

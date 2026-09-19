@@ -89,6 +89,7 @@ lm_eval --model local-chat-completions \
 ## Do not mix instruments
 
 - These scores are **not** a residualisation result and **not** EqualResolution.
+- Filter-across-domains on political *questions* (ON vs OFF, no compass math): [`luna-political-on-off-20260919.md`](luna-political-on-off-20260919.md).
 - Educate / WP / Stage 2 will change fetch; that is a *different* cell if you ever compare, not the standard published protocol.
 - BBQ / winogender / RealToxicityPrompts are adjacent bias benches in the same harness family; still not ERT.
 
