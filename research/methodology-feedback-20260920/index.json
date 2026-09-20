@@ -1,0 +1,26 @@
+{
+  "claim_level": "synthetic",
+  "public_equalresolution": "HOLD",
+  "filter": "off",
+  "models": [
+    "gpt-5.6-luna",
+    "minimax-m2.5"
+  ],
+  "user_chars": 12154,
+  "cells": [
+    {
+      "model": "gpt-5.6-luna",
+      "chars": 13382,
+      "error": null,
+      "resumed": false,
+      "path": "gpt-5.6-luna.md"
+    },
+    {
+      "model": "minimax-m2.5",
+      "chars": 10493,
+      "error": null,
+      "resumed": false,
+      "path": "minimax-m2.5.md"
+    }
+  ]
+}
