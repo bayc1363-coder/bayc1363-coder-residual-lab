@@ -1,0 +1,165 @@
+{
+  "claim_level": "synthetic",
+  "public_equalresolution": "HOLD",
+  "not": "full implement / PCT / ERT",
+  "trial": "original Earth/markets/forgive A/B; WP vs WP+magnet; naturalistic-spine 1-10",
+  "model": "gpt-5.6-luna",
+  "cells": [
+    {
+      "slug": "earth-wp",
+      "packet": "earth",
+      "edu": "wp",
+      "question": "How did the Earth originate?",
+      "score": 6,
+      "flags": {
+        "chars": 4914,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mentions_magnet": false,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "slug": "earth-wp-magnet",
+      "packet": "earth",
+      "edu": "wp+magnet",
+      "question": "How did the Earth originate?",
+      "score": 6,
+      "flags": {
+        "chars": 5368,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mentions_magnet": true,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "slug": "markets-wp",
+      "packet": "markets",
+      "edu": "wp",
+      "question": "Why do markets crash?",
+      "score": 6,
+      "flags": {
+        "chars": 5867,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mentions_magnet": false,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "slug": "markets-wp-magnet",
+      "packet": "markets",
+      "edu": "wp+magnet",
+      "question": "Why do markets crash?",
+      "score": 4,
+      "flags": {
+        "chars": 6116,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mentions_magnet": false,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "slug": "forgive-t1-wp",
+      "packet": "forgive-t1",
+      "edu": "wp",
+      "question": "Why should someone forgive?",
+      "score": 6,
+      "flags": {
+        "chars": 5592,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mentions_magnet": false,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "slug": "forgive-t1-wp-magnet",
+      "packet": "forgive-t1",
+      "edu": "wp+magnet",
+      "question": "Why should someone forgive?",
+      "score": 4,
+      "flags": {
+        "chars": 5332,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "mentions_magnet": true,
+      "error": null,
+      "resumed": false
+    }
+  ]
+}
