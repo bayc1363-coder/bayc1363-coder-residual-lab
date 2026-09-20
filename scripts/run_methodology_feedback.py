@@ -20,12 +20,13 @@ PROMPT = ROOT / "research" / "methodology-feedback-prompt-draft.md"
 OUT = ROOT / "research" / "methodology-feedback-20260920"
 
 LUNA = "gpt-5.6-luna"
-# First slug that returns content wins. MiniMax is the prior Experiential pair.
+# MiniMax is the prior Experiential pair (glm52 micro). m2.7-free is not
+# granted on this key. Ping needs more than 16 tokens: m2.5 returns empty
+# at max_tokens=16 (finish=length). DeepSeek is the fallback.
 SECOND_CANDIDATES = (
-    "minimax-m2.7-free",
     "minimax-m2.5",
     "deepseek-v4.1-flash",
-    "gemma-4-26b-a4b-it-free",
+    "deepseek-v3.2",
 )
 
 
@@ -113,8 +114,8 @@ def chat(key: str, base: str, model: str, user: str, max_tokens: int) -> dict:
 
 
 def ping(key: str, base: str, model: str) -> bool:
-    rec = chat(key, base, model, "Reply with the single word pong.", 16)
-    return bool(rec.get("text")) and not rec.get("error")
+    rec = chat(key, base, model, "Reply with the single word pong.", 256)
+    return bool((rec.get("text") or "").strip()) and not rec.get("error")
 
 
 def pick_second(key: str, base: str) -> str:

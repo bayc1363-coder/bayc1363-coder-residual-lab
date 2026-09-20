@@ -8,7 +8,7 @@
 | Arm | Model | Job |
 | --- | --- | --- |
 | Luna | `gpt-5.6-luna` | Same family as most cells under review. Must self-identify. |
-| Second | first Experiential slug that pings | Independent-enough methods critique |
+| Second | `minimax-m2.5` (DeepSeek fallback if MiniMax empty) | Independent-enough methods critique |
 
 Packet: [`methodology-feedback-packet-20260920.md`](methodology-feedback-packet-20260920.md)  
 Prompt: [`methodology-feedback-prompt-draft.md`](methodology-feedback-prompt-draft.md)  
