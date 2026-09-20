@@ -1,8 +1,11 @@
 # Methodology-and-testing feedback prompt
 
-**Status:** live stimulus for a two-model critique cell.  
-**claim_level:** synthetic · Public EqualResolution: HOLD  
-**Models:** `gpt-5.6-luna` plus `minimax-m2.5` (prior Experiential pair; DeepSeek fallback if MiniMax empty).  
+**Status:** live stimulus for a three-lane critique cell.
+
+**claim_level:** synthetic · Public EqualResolution: HOLD
+
+**Models:** `gpt-5.6-luna`, `minimax-m2.5`, third lane `grok-4.6` (same packet).
+
 **Filter:** off. Raw chat/completions. Not Frame Lab equal-res. Not Stage 2. Not PCT.
 
 You are reviewing a research desk’s methodology and the tests it already ran. You are not answering Earth / markets / political questions from scratch.

@@ -76,6 +76,26 @@ Luna failing to self-identify is itself a methods note: same-family review canno
 
 ---
 
+## Third lane (same packet)
+
+Same stimulus, filter off. Third family: `grok-4.6` (desk already used Grok as the unprimed Earth soft-test; no Grok equal-res twin). Luna and MiniMax texts stay as-run. Not a Frame Lab C-stream.
+
+**Rank axes locked before the Grok cell.** Rank the critiques as methods reviews, not as residualisation scores. 1 = strongest on that axis. Ties allowed. Overall rank is not an EqualResolution claim.
+
+| Axis | What 1 means |
+| --- | --- |
+| Construct | Names what is actually tested, not the advertisement |
+| Instrument clash | RD vs inhabit vs PCT kept split; names the 50/50 tension |
+| Circularity | Luna-reads-Luna treated as a closed loop |
+| Fake-equal / demand | ON-as-instruction vs residualisation |
+| Strongest hole | One hole that matches the allowed claim |
+| Count-against | A result that would weaken residualisation *as operationalised*; not backwards |
+| Keep/drop | Concrete, does not re-add magnet or prestige×info live |
+| Self-id | Honest about being the model under review |
+| HOLD | Does not mint a public claim |
+
+---
+
 ## One-line desk take
 
-The methodology can be reviewed. The two models did not rubber-stamp it. The allowed sentence stays the filter/inhabit one; residualisation-as-cause stays HOLD.
+The methodology can be reviewed. The two models did not rubber-stamp it. The allowed sentence stays the filter/inhabit one; residualisation-as-cause stays HOLD. Grok rank lands after that cell.

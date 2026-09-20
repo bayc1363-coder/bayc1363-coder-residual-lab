@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Critique cell: lab methodology + tests through Luna and one other model.
+"""Critique cell: lab methodology + tests through Luna, MiniMax, and a third lane.
 
 Raw Experiential chat. Filter off. Not Frame Lab, not Stage 2, not PCT.
 claim_level synthetic. EqualResolution HOLD. Does not print secrets.
@@ -7,6 +7,7 @@ claim_level synthetic. EqualResolution HOLD. Does not print secrets.
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import time
@@ -20,13 +21,13 @@ PROMPT = ROOT / "research" / "methodology-feedback-prompt-draft.md"
 OUT = ROOT / "research" / "methodology-feedback-20260920"
 
 LUNA = "gpt-5.6-luna"
-# MiniMax is the prior Experiential pair (glm52 micro). m2.7-free is not
-# granted on this key. Ping needs more than 16 tokens: m2.5 returns empty
-# at max_tokens=16 (finish=length). DeepSeek is the fallback.
-SECOND_CANDIDATES = (
-    "minimax-m2.5",
+SECOND = "minimax-m2.5"
+# Third lane: different family from Luna and MiniMax. grok-4.6 pinged on
+# this key. grok-latest requires purchase. jev is not a chat critic.
+THIRD_CANDIDATES = (
+    "grok-4.6",
+    "claude-sonnet-4.6",
     "deepseek-v4.1-flash",
-    "deepseek-v3.2",
 )
 
 
@@ -118,23 +119,43 @@ def ping(key: str, base: str, model: str) -> bool:
     return bool((rec.get("text") or "").strip()) and not rec.get("error")
 
 
-def pick_second(key: str, base: str) -> str:
-    env_second = (os.environ.get("SECOND_MODEL") or "").strip()
-    order = ((env_second,) if env_second else ()) + SECOND_CANDIDATES
+def slug(model: str) -> str:
+    return model.replace(":", "_").replace("/", "_")
+
+
+def dest_for(model: str) -> Path:
+    return OUT / f"{slug(model)}.md"
+
+
+def pick_model(key: str, base: str, candidates: tuple[str, ...], env_name: str) -> str:
+    extra = (os.environ.get(env_name) or "").strip()
+    order = ((extra,) if extra else ()) + candidates
     seen: set[str] = set()
+    blocked = {LUNA, SECOND}
     for model in order:
-        if not model or model in seen or model == LUNA:
+        if not model or model in seen or model in blocked:
             continue
         seen.add(model)
         print(json.dumps({"ping": model}), flush=True)
         if ping(key, base, model):
             return model
-    raise SystemExit("no second model returned content")
+    raise SystemExit(f"no model returned content ({env_name})")
+
+
+def already_done(model: str) -> bool:
+    path = dest_for(model)
+    return path.is_file() and path.stat().st_size > 200
+
+
+def token_budget(model: str) -> int:
+    low = model.lower()
+    if "minimax" in low or "grok" in low:
+        return 8000
+    return 4000
 
 
 def write_cell(model: str, rec: dict, user_chars: int) -> Path:
-    slug = model.replace(":", "_").replace("/", "_")
-    path = OUT / f"{slug}.md"
+    path = dest_for(model)
     header = [
         f"# Methodology feedback — `{model}`",
         "",
@@ -154,14 +175,26 @@ def write_cell(model: str, rec: dict, user_chars: int) -> Path:
 
 
 def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument(
+        "--only",
+        default="",
+        help="comma-separated model ids to run; default is luna + minimax + third",
+    )
+    args = ap.parse_args()
     key, base = load_env()
     if not key:
         print("missing key", flush=True)
         return 2
     OUT.mkdir(parents=True, exist_ok=True)
     user = build_user()
-    second = pick_second(key, base)
-    models = [LUNA, second]
+    if args.only.strip():
+        models = [m.strip() for m in args.only.split(",") if m.strip()]
+    else:
+        third = os.environ.get("THIRD_MODEL") or ""
+        if not third.strip():
+            third = pick_model(key, base, THIRD_CANDIDATES, "THIRD_MODEL")
+        models = [LUNA, SECOND, third.strip()]
     print(
         json.dumps(
             {
@@ -183,16 +216,15 @@ def main() -> int:
         "cells": [],
     }
     for model in models:
-        dest = OUT / f"{model.replace(':', '_').replace('/', '_')}.md"
-        if dest.is_file() and dest.stat().st_size > 200:
+        dest = dest_for(model)
+        if already_done(model):
             text = dest.read_text(encoding="utf-8")
             rec = {"text": text, "resumed": True, "error": None}
             print(json.dumps({"model": model, "resumed": True, "chars": len(text)}), flush=True)
         else:
-            max_tokens = 8000 if "minimax" in model else 4000
             rec = None
             for attempt in range(3):
-                rec = chat(key, base, model, user, max_tokens)
+                rec = chat(key, base, model, user, token_budget(model))
                 if rec.get("text") and not rec.get("error"):
                     break
                 time.sleep(2 * (attempt + 1))
