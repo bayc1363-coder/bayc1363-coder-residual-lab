@@ -26,7 +26,9 @@ No. Five of six cells copy the Stage-1 working-answer number. Magnet education m
 
 Same pattern as the Earth edu-on vs edu-off micro: education changes available Shape language more than the Decision. Here Shape almost did **not** use the zoo. One line refuses a magnet/mirror diagnosis (as the trial prompt asked). No cell treated a single transcript as a detection.
 
-n=1. Not “awareness campaigns fail” as a proof of v3. Not a reason to ship the excerpt into the live prompt. The scale did not move.
+n=1. Not “awareness campaigns fail” as a proof of v3. The scale did not move.
+
+**Lock (2026-09-20): leave it out.** Magnet v3 stays trial-only. Live Stage 2 education remains WP v5 excerpt only. Do not paste this excerpt into [`stage2-decision-layer-prompt-draft.md`](stage2-decision-layer-prompt-draft.md).
 
 ---
 

@@ -1,6 +1,7 @@
 # Stage 2 magnet-education trial prompt
 
-**Status:** trial only. Do not replace [`stage2-decision-layer-prompt-draft.md`](stage2-decision-layer-prompt-draft.md).  
+**Status:** trial only. Do not replace [`stage2-decision-layer-prompt-draft.md`](stage2-decision-layer-prompt-draft.md). Left out of live education 2026-09-20.
+
 **When:** after Stage-1 A/B. `equalRes` off.  
 **Education arms:** WP v5 excerpt vs WP v5 + magnet v3 excerpt.  
 **Metric:** 1–10 on the original domain question. See if this info moves the scale.

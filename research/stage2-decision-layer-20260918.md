@@ -38,6 +38,8 @@ Luna ON cells already produced Stage-1 texts: [`luna-equalres-on-off-20260918/`]
 - Multi-avenue vs fake-equal: two inhabited paths, not 50/50 word count, not self-audit 0.8x as proof.
 - Must-cite shelf is **citation context**, not “these papers prove web residualisation.” Ledger: [`citation-ledger-20260918.md`](citation-ledger-20260918.md).
 
+**Left out of live education (2026-09-20):** magnet/mirror draft v3. Trialled after A/B on political 1–10 and original Earth/markets/forgive. Earth completeness 6=6; political scores mostly copied Stage-1 WA; markets/forgive 6→4 is ambiguous (harsher spine, not a better inhabit). Live education stays WP-only. Excerpt remains trial-only: [`stage2-education-magnet-v3-excerpt.md`](stage2-education-magnet-v3-excerpt.md).
+
 **Do not invent:** arXiv / DOI / HF / GitHub ids for this draft. WP §6 equalising-resolution language stays out of the Stage 2 stimulus (that is Stage 1 / ERT).
 
 **Never in the Stage-2 stimulus:**
@@ -97,6 +99,7 @@ It fails if it reprints Stage 1, settles with “science vs some traditions,” 
 - No live Stage-2 API call from this note.
 - Public EqualResolution HOLD.
 - Self-audit ≠ independent scorer. Do not pass 0.8x into the decision layer as a fact.
+- Magnet/mirror draft v3 left out of live Stage 2 education (2026-09-20). WP-only stays.
 - Open question 2 still open: same model vs cross-model summarizer.
 - Open question 3 still open: how verdictive the last move may be. This note allows a decision *after* the comparative sections; it does not require a winner.
 

@@ -52,7 +52,7 @@ Secrets stay out (no `.env.local`). EqualResolution HOLD. No deploy.
 | [`citation-ledger-20260918.md`](citation-ledger-20260918.md) | Cited vs uncited evidence map (points at PR #2 `sources.jsonl`) |
 | [`luna-equalres-on-off-20260918.md`](luna-equalres-on-off-20260918.md) | Same-question Luna chat: filter ON vs OFF (synthetic; not RD) |
 | [`stage2-decision-layer-20260918.md`](stage2-decision-layer-20260918.md) | Next layer after Frame Lab A/B: educated read of those outputs (design; do not run) |
-| [`residualisation-wp-v5.md`](residualisation-wp-v5.md) | Uploaded WP v5 (no public id). Stage 2 excerpt: [`stage2-education-wp-v5-excerpt.md`](stage2-education-wp-v5-excerpt.md) |
+| [`residualisation-wp-v5.md`](residualisation-wp-v5.md) | Uploaded WP v5 (no public id). Live Stage 2 excerpt: [`stage2-education-wp-v5-excerpt.md`](stage2-education-wp-v5-excerpt.md). Magnet v3 excerpt trial-only, left out 2026-09-20. |
 | [`stage2-micro-20260918.md`](stage2-micro-20260918.md) | Live Stage-2 micro (Luna; synthetic; HOLD) |
 
 After merging `origin/main`, this clone also has the residual-lab Python

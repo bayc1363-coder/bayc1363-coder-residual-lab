@@ -26,3 +26,13 @@ Markets and forgive **did move**, both 6→4. Decisions stay “both jobs live.�
 WP scored 6 on all three. Treat that as a possible hedge, not a finding. Magnet broke the 6 on two packets, not on Earth.
 
 n=1. Do not ship the excerpt. HOLD.
+
+---
+
+## Lock (2026-09-20)
+
+**Leave it out.** Magnet/mirror v3 does not go into live Stage 2 education. WP v5 excerpt stays the background. Trial files stay trial files.
+
+Earth was the packet that asked whether this info helped naturalistic completeness. It did not (6=6). Markets/forgive moving 6→4 is not a reason to ship: both jobs already live; the magnet arm is harsher on the first job, not a fuller inhabit. Political 1–10 mostly copied Stage-1 WA.
+
+Live prompt remains [`stage2-decision-layer-prompt-draft.md`](stage2-decision-layer-prompt-draft.md). Do not paste [`stage2-education-magnet-v3-excerpt.md`](stage2-education-magnet-v3-excerpt.md) into it.

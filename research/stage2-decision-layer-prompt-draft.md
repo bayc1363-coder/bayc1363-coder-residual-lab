@@ -1,8 +1,12 @@
 # Stage 2 decision-layer prompt (draft)
 
-**Status:** draft stimulus. Micro greenlit 2026-09-18 (`scripts/run_stage2_decision_layer.py`). claim_level synthetic. HOLD.  
-**claim_level:** synthetic · Public EqualResolution: HOLD  
+**Status:** draft stimulus. Micro greenlit 2026-09-18 (`scripts/run_stage2_decision_layer.py`). claim_level synthetic. HOLD.
+
+**claim_level:** synthetic · Public EqualResolution: HOLD
+
 **Education:** [`stage2-education-wp-v5-excerpt.md`](stage2-education-wp-v5-excerpt.md) from uploaded WP v5 ([`residualisation-wp-v5.md`](residualisation-wp-v5.md)). Analytic only. Do not invent a public id.
+
+**Magnet/mirror v3:** left out of this live block (2026-09-20). Trial-only files stay in `stage2-education-magnet-v3-excerpt.md` and the magnet-trial prompts. Do not paste them here.
 
 Labels `α` / `β` are assigned **after** Stage 1 and shuffled independently of Frame A/B order. Strip `## Self-audit` numbers before paste. Keep Residual and Working answer as objects to inspect.
 

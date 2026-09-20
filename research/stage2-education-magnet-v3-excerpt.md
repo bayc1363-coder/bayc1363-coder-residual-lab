@@ -1,6 +1,7 @@
 # Stage 2 education excerpt — directional selection / magnet draft v3
 
-**Use:** trial paste into Stage 2 **after** Stage-1 A/B packets. Not a full protocol change.  
+**Use:** trial paste only. **Left out of live Stage 2 education (2026-09-20).** Do not paste into [`stage2-decision-layer-prompt-draft.md`](stage2-decision-layer-prompt-draft.md). Not a full protocol change.
+
 **Source:** unpublished draft v3 circulated in this chat (“Directional Selection Bias Causes Delusional Spiraling That No In-Conversation Test Can Detect”). Extends CKRT (Chandra, Kleiman-Weiner, Ragan-Kelley & Tenenbaum, 2026). No public id invented.  
 **claim_level:** synthetic · Public EqualResolution: HOLD  
 **Educate ≠ persuade.** Analytic zoo + detection limits. Not an instruction to equalize, distrust, or flip the working answer.
