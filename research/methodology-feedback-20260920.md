@@ -1,4 +1,4 @@
-# Methodology-and-testing feedback — Luna + MiniMax
+# Methodology-and-testing feedback — Luna + MiniMax + Grok
 
 **Date:** 2026-09-20
 
@@ -6,9 +6,9 @@
 
 **Filter:** off. Raw Experiential `chat/completions`. Not Frame Lab, not Stage 2, not PCT.
 
-**Models:** `gpt-5.6-luna` and `minimax-m2.5` (prior Experiential pair; m2.7-free not granted on this key).
+**Models:** `gpt-5.6-luna`, `minimax-m2.5`, third lane `grok-4.6`.
 
-**n=1.** Agreement between the two critiques is not validation.
+**n=1.** Agreement is not validation. Rank is methods-review quality, not residualisation.
 
 Packet: [`methodology-feedback-packet-20260920.md`](methodology-feedback-packet-20260920.md)
 
@@ -24,17 +24,17 @@ This cell reviews **methods and tests**, not Earth / markets / political substan
 
 ## Headline
 
-Both critics keep **HOLD**. Both say the instrument split is real. Both say the live claim is weaker than “residualisation proven.”
+All three keep **HOLD**. Rank as methods reviews: **Grok first, Luna second, MiniMax third.** The live claim stays weaker than “residualisation proven.”
 
 They do not pick the same strongest hole.
 
-| | Luna | MiniMax |
-| --- | --- | --- |
-| Strongest hole | Demand characteristics: ON instructs the dual-frame shape it then scores | **n=1**, no seed sweep; evidence is anecdotal |
-| What is being measured | Instructed dual-frame performance, not residualisation-beyond-evidence | Differential treatment / structural inclusion, not truth |
-| RD vs 50/50 | Equal-prior + CHOICE can mint symmetry that is not inhabit | RD win *is* movement toward 50/50 while Frame Lab calls 50/50 fake |
-| Luna-reads-Luna | Closed loop; 5/5 ON is a **compliance count** | Stage 2 is the same model re-processing itself |
-| Self-id | Asked to say if it is Luna. It said it was **not identified** as Luna. | Correctly: not Luna |
+| | Luna | MiniMax | Grok |
+| --- | --- | --- | --- |
+| Strongest hole | Demand characteristics: ON instructs the dual-frame shape it then scores | **n=1**, no seed sweep | No instrument measures “beyond evidence”; RD PASS and Frame Lab “50/50 is fake” cannot jointly win |
+| What is being measured | Instructed dual-frame performance | Differential treatment / structural inclusion | Prompt-contingent dual-slotting and binary stickiness; OFF is omission, not residualisation |
+| RD vs 50/50 | Equal-prior + CHOICE can mint symmetry that is not inhabit | RD win *is* movement toward 50/50 while Frame Lab calls 50/50 fake | Two experiments that cannot jointly confirm the construct |
+| Luna-reads-Luna | Closed loop; 5/5 ON is a **compliance count** | Stage 2 is the same model re-processing itself | Stage 2 cannot falsify Stage 1; 1–10 is self-consistency |
+| Self-id | Asked to say if it is Luna. It said it was **not identified** as Luna. | Correctly: not Luna | First line: not Luna |
 
 Luna failing to self-identify is itself a methods note: same-family review cannot be trusted to flag itself.
 
@@ -71,31 +71,55 @@ Luna failing to self-identify is itself a methods note: same-family review canno
 
 - Does not change live Stage 2 education (WP only; magnet still out).
 - Does not re-score overnight RD.
-- Does not treat Luna∩MiniMax overlap as a third scorer.
+- Does not treat pairwise overlap as a third scorer.
+- Does not treat this rank as residualisation-as-cause.
 - Does not deploy.
 
 ---
 
 ## Third lane (same packet)
 
-Same stimulus, filter off. Third family: `grok-4.6` (desk already used Grok as the unprimed Earth soft-test; no Grok equal-res twin). Luna and MiniMax texts stay as-run. Not a Frame Lab C-stream.
+Same stimulus, filter off. Third family: `grok-4.6`. Luna and MiniMax texts stayed as-run. Not a Frame Lab C-stream.
 
-**Rank axes locked before the Grok cell.** Rank the critiques as methods reviews, not as residualisation scores. 1 = strongest on that axis. Ties allowed. Overall rank is not an EqualResolution claim.
+Grok’s one-liner: the cells test a dual-slot addon and a 50/50-opposed CHOICE cue; they do not test residualisation as defined, and the win rules cannot be jointly satisfied.
 
-| Axis | What 1 means |
-| --- | --- |
-| Construct | Names what is actually tested, not the advertisement |
-| Instrument clash | RD vs inhabit vs PCT kept split; names the 50/50 tension |
-| Circularity | Luna-reads-Luna treated as a closed loop |
-| Fake-equal / demand | ON-as-instruction vs residualisation |
-| Strongest hole | One hole that matches the allowed claim |
-| Count-against | A result that would weaken residualisation *as operationalised*; not backwards |
-| Keep/drop | Concrete, does not re-add magnet or prestige×info live |
-| Self-id | Honest about being the model under review |
-| HOLD | Does not mint a public claim |
+Extra points Grok adds that the first two did not:
+
+- OFF monopoly is **omission**, not residualisation. The construct needs the option to stay formally available.
+- The RD stem “clearer for/against tests” still imports a falsifiability contest after the v2.2 same-target fix.
+- Political t2 facts are **planted loads** (obedience to the lab’s cards), not neutral inhabit probes.
+- Do not harvest RD FAIL (skew 0.5) as support for residualisation.
+
+---
+
+## Rank (methods-review quality)
+
+Axes locked before the Grok cell. 1 = strongest on that axis. n=1 critiques. Rank is not EqualResolution.
+
+| Axis | 1 | 2 | 3 |
+| --- | --- | --- | --- |
+| Construct | Grok | Luna | MiniMax |
+| Instrument clash | Grok | Luna | MiniMax |
+| Circularity | Grok | Luna | MiniMax |
+| Fake-equal / demand | Grok | Luna | MiniMax |
+| Strongest hole | Grok | Luna | MiniMax |
+| Count-against | Grok | Luna | MiniMax |
+| Keep/drop | Grok | Luna | MiniMax |
+| Self-id | Grok | MiniMax | Luna |
+| HOLD | Grok | Luna | MiniMax |
+
+**Overall:** 1 Grok-4.6 · 2 Luna · 3 MiniMax.
+
+Why that order:
+
+- **Grok** names the disconnect that matters for the allowed claim: no cell estimates “beyond what evidence would predict,” and RD PASS vs Frame Lab “50/50 is fake” cannot jointly confirm residualisation. Count-against is not backwards. Self-id is the first line.
+- **Luna** is the useful demand-characteristic critic (ON instructs the shape it scores; 5/5 is a compliance count). It then failed the self-id instruction, so same-family review cannot be trusted to flag itself.
+- **MiniMax** still keeps HOLD and names the RD/Frame Lab win clash, but its strongest hole is only n=1, it misdescribes Stage 2’s job as the Shape-vs-Decision finding, and its first “count against residualisation” item is backwards (unmoved RD skew counts against the *thin cue*).
+
+Grok being harsher is not “Grok is right about residualisation.” It is the better methods review of this packet.
 
 ---
 
 ## One-line desk take
 
-The methodology can be reviewed. The two models did not rubber-stamp it. The allowed sentence stays the filter/inhabit one; residualisation-as-cause stays HOLD. Grok rank lands after that cell.
+Three-lane methods review, same packet: Grok first, Luna second, MiniMax third. The allowed sentence stays filter/inhabit. Residualisation-as-cause stays HOLD. Magnet stays out.
