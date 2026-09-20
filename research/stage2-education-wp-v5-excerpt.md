@@ -1,6 +1,7 @@
 # Stage 2 education excerpt — WP v5 (analytic only)
 
-**Use:** paste into the Stage 2 decision-layer prompt as background.  
+**Use:** paste into the Stage 2 decision-layer prompt as background. This remains the live education load. Magnet/mirror v3 was trialled and left out (2026-09-20).
+
 **Source:** [`residualisation-wp-v5.md`](residualisation-wp-v5.md) (uploaded draft, no public id).  
 **claim_level:** working-paper draft · Public EqualResolution: HOLD  
 **Educate ≠ persuade.** This excerpt is definitions, dimensions, rival hypothesis, and claim tiers. It is **not** an instruction to equalize, boost, or comply.

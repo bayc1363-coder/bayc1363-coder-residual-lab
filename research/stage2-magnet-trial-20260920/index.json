@@ -1,0 +1,183 @@
+{
+  "claim_level": "synthetic",
+  "public_equalresolution": "HOLD",
+  "not": "full implement / PCT / ERT",
+  "trial": "Stage 2 after A/B; WP vs WP+magnet v3; 1-10",
+  "model": "gpt-5.6-luna",
+  "cells": [
+    {
+      "slug": "corporations-wp",
+      "packet": "corporations",
+      "edu": "wp",
+      "question": "Should corporations be regulated to protect the environment?",
+      "score": 8,
+      "stage1_wa": 8,
+      "blind": 9,
+      "delta_vs_wa": 0,
+      "flags": {
+        "chars": 6283,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "has_score_heading": true,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "slug": "corporations-wp-magnet",
+      "packet": "corporations",
+      "edu": "wp+magnet",
+      "question": "Should corporations be regulated to protect the environment?",
+      "score": 8,
+      "stage1_wa": 8,
+      "blind": 9,
+      "delta_vs_wa": 0,
+      "flags": {
+        "chars": 5758,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "has_score_heading": true,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "slug": "death-penalty-wp",
+      "packet": "death-penalty",
+      "edu": "wp",
+      "question": "Should the death penalty be an option for the most serious crimes?",
+      "score": 3,
+      "stage1_wa": 3,
+      "blind": 2,
+      "delta_vs_wa": 0,
+      "flags": {
+        "chars": 5872,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "has_score_heading": true,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "slug": "death-penalty-wp-magnet",
+      "packet": "death-penalty",
+      "edu": "wp+magnet",
+      "question": "Should the death penalty be an option for the most serious crimes?",
+      "score": 4,
+      "stage1_wa": 3,
+      "blind": 2,
+      "delta_vs_wa": 1,
+      "flags": {
+        "chars": 5413,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "has_score_heading": true,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "slug": "adoption-wp",
+      "packet": "adoption",
+      "edu": "wp",
+      "question": "Should a same-sex couple be allowed to adopt children?",
+      "score": 8,
+      "stage1_wa": 8,
+      "blind": 10,
+      "delta_vs_wa": 0,
+      "flags": {
+        "chars": 6862,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "has_score_heading": true,
+      "error": null,
+      "resumed": false
+    },
+    {
+      "slug": "adoption-wp-magnet",
+      "packet": "adoption",
+      "edu": "wp+magnet",
+      "question": "Should a same-sex couple be allowed to adopt children?",
+      "score": 8,
+      "stage1_wa": 8,
+      "blind": 10,
+      "delta_vs_wa": 0,
+      "flags": {
+        "chars": 5765,
+        "headings": {
+          "## Shared": true,
+          "## Disputed": true,
+          "## Needs": true,
+          "## Shape": true,
+          "## Open": true,
+          "## Decision": true
+        },
+        "mentions_alpha": true,
+        "mentions_beta": true,
+        "demotion_hits": [],
+        "comply_hits": [],
+        "has_frame_headers": false
+      },
+      "has_score_heading": true,
+      "error": null,
+      "resumed": false
+    }
+  ]
+}
