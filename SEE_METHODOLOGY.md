@@ -70,6 +70,7 @@ Not RD, not Stage 2. Same Luna cells with Frame Lab `equalRes` true vs false.
 - Magnet-education Stage 2 trial (after A/B, 1–10): [`research/stage2-magnet-trial-20260920.md`](research/stage2-magnet-trial-20260920.md)
 - Same trial on original Earth/markets/forgive: [`research/stage2-magnet-trial-original-20260920.md`](research/stage2-magnet-trial-original-20260920.md)
 - **Lock (2026-09-20): leave magnet v3 out of live Stage 2.** Education stays WP v5 excerpt only. Trial files stay trial.
+- Methodology-and-testing feedback (Luna + second model, filter off): [`research/methodology-feedback-20260920.md`](research/methodology-feedback-20260920.md)
 
 Self-audit labels in those texts are **not** an ERT score. Public EqualResolution HOLD.
 
