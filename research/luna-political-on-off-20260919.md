@@ -160,6 +160,22 @@ So: the filter is not Earth-only. On political questions people actually ask, it
 
 ---
 
+## Quick print-order swap (B then A)
+
+Same three ON questions. Instruction: keep the jobs, print Frame B first. Texts: [`order-swap/`](luna-political-on-off-20260919/order-swap/).
+
+It printed B first on 3/3. Working answers did **not** flip.
+
+| | Baseline ON (A first) | B printed first | WA still |
+| --- | --- | --- | --- |
+| Corporations | A safeguards · B decentralized | A standards · B liability/limited | Yes, enforceable rules |
+| Death penalty | A conditional retention · B abolition | A retribution/incapacitation · B abolitionist restraint | Lean life imprisonment |
+| Adoption | A equal eligibility · B precaution that agrees | A child-welfare · **B complementary-family ethics** | Yes, same standards |
+
+Order did not change the ending. The maybe: adoption B is no longer scenery. Putting B first installed the costly mother-father rival that t1 never held. n=1. Do not treat that as a method.
+
+---
+
 ## What this is not
 
 - Not official PCT. Do not compute `econv` / `socv` on these texts.
