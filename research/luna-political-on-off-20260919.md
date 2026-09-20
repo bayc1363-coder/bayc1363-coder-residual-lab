@@ -194,6 +194,31 @@ Death penalty is the only WA move: 3 → 5 when B prints first. Frame scores sta
 
 ---
 
+## t2 + default Luna blind (1–10)
+
+Same three questions. Score is still the **original** question, given the new fact.
+
+- **ON t2:** continue the scored A-first / B-first threads. Both frames score again.
+- **Blind:** Frame Lab `equalRes: false`, no A/B protocol, no ON history. Default Luna.
+
+t2 facts: regulator captured · DNA makes guilt certain · child wants a mother and a father.
+
+![t2 vs blind 1-10](luna-political-on-off-20260919/score10-t2-blind.png)
+
+| | ON t1 A/B-first WA | ON t2 A/B-first WA | Blind t1 / t2 |
+| --- | --- | --- | --- |
+| Corporations | 8 / 8 | 7 / 7 | **9 / 9** |
+| Death penalty | 3 / 5 | **4 / 8** | **2 / 3** |
+| Adoption | 8 / 9 | 7 / 9 | **10 / 10** |
+
+Blind never installs two jobs. Capture does not move it (still 9). DNA certainty moves it 2→3. Adoption is a ceiling 10; the t1/t2 files are **only** `score: 10` — no paragraph.
+
+ON still inhabits both at t2 (headers, no 5–5). Capture knocks regulate 8→7 either order. The child’s wish knocks adopt 8→7 only on A-first (complementarity B). DNA is the split: A-first WA 4 (still mostly no), B-first WA 8 (now mostly yes). Frame scores stay ~9 vs ~3. Blind stays with B’s neighborhood (2–3).
+
+So: default Luna is the unmarked prior. The filter is what makes the second job score at all. Order still does not flip regulate/adopt; on death-penalty t2 it can move the **working** number a lot while the frame numbers stay put. n=1. HOLD.
+
+---
+
 ## What this is not
 
 - Not official PCT. Do not compute `econv` / `socv` on these texts.
