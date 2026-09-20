@@ -176,6 +176,24 @@ Order did not change the ending. The maybe: adoption B is no longer scenery. Put
 
 ---
 
+## Both orders, 1–10 (same three questions)
+
+Filter on. Each frame scores the question; working answer scores it. 1 = definitely no, 10 = definitely yes. Texts: [`score10/`](luna-political-on-off-20260919/score10/).
+
+![1-10 both print orders](luna-political-on-off-20260919/score10.png)
+
+| Question | A first (A / B / WA) | B first (A / B / WA) |
+| --- | --- | --- |
+| Corporations regulated? | 9 / 5 / **8** | 9 / 4 / **8** |
+| Death penalty an option? | 8 / 2 / **3** | 8 / 2 / **5** |
+| Same-sex adoption? | 9 / 4 / **8** | 9 / 3 / **9** |
+
+Frames did **not** collapse to 5–5. A stays high-yes on regulate and adopt, high-yes on keeping death as an option; B stays mid/low. Working answer stays near A on regulate and adopt either order.
+
+Death penalty is the only WA move: 3 → 5 when B prints first. Frame scores stay 8 and 2. The prose still says it should not be an ordinary option; B-first just leaves a narrower “if the safeguards hold” door. n=1. Not a method. Not PCT.
+
+---
+
 ## What this is not
 
 - Not official PCT. Do not compute `econv` / `socv` on these texts.
